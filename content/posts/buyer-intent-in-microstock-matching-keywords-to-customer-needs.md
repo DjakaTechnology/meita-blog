@@ -91,6 +91,7 @@ Comparing Microstock Buyer Intent Categories
 |       **Commercial**        |   Sell a product, promote a service, build brand awareness.    |        Ad agencies, corporate marketers, web designers.        | Copy space, modern lifestyle, premium, business success, diverse team. |Polished, well-lit, intentional negative space, aspirational, model-released. |
 |**Editorial / Informational**|   Educate, report news, document reality, illustrate facts.    |    Journalists, news outlets, bloggers, documentary makers.    |   [City name], [Event name], candid, documentary, [Exact date/year].   |Unposed, authentic, minimal editing, accurate to reality, true-to-life colors.|
 |  **Conceptual / Creative**  |Illustrate abstract ideas, convey complex emotions or metaphors.|Graphic designers, book publishers, thought leadership bloggers.|Mental health, financial growth, teamwork, isolation, technology future.|     Metaphorical, creative lighting, composite images, symbolic objects.     |
+
 ![A graphical representation of a sales funnel overlaying a grid of various stock photographs](images/buyer_intent_in_microstock_matching_keywords_to_customer_needs_128/managed_buyer_intent_in_microstock_matching_keywords_to_customer_needs_3.webp)
 
 Expert Tips for Intent-Driven Keyword Tagging

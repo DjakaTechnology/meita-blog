@@ -93,6 +93,7 @@ Generic vs Specific Microstock Keywords Comparison
 |    Close up of a person preparing a salad    |   food, cooking, healthy, salad, hands   |     plant based meal prep, chopping organic vegetables, healthy eating lifestyle, vegan diet concept      |         Health and wellness magazines, diet apps, organic food brands          |
 |Two business people shaking hands in an office| meeting, handshake, men, office, success |   b2b corporate partnership, closing financial deal, formal business greeting, executive collaboration    | Corporate finance brochures, B2B software websites, business consulting firms  |
 |  A modern living room with empty wall space  |    room, interior, house, sofa, wall     | minimalist living room interior, blank wall mockup space, contemporary home decor, scandinavian furniture |Interior design blogs, canvas print sellers needing mockups, real estate staging|
+
 ![Side by side comparison of generic vs specific keywords on a digital tablet](images/avoiding_generic_keywords_in_microstock_strategies_for_specificity_and_uniqueness_138/managed_avoiding_generic_keywords_in_microstock_strategies_for_specificity_and_uniqueness_3.webp)
 
 Expert Tips for Tagging Commercial Stock Assets

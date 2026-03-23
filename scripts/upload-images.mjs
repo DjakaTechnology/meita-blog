@@ -84,7 +84,7 @@ async function main() {
     if (existing && existing.contentHash === contentHash) { skipped++; continue; }
 
     if (!client) {
-      manifest[relativePath] = { r2Url: `/${relativePath}`, contentHash };
+      manifest[relativePath] = { r2Url: `/blog/content-images/${relativePath.replace(/^images\//, '')}`, contentHash };
       skipped++;
       continue;
     }

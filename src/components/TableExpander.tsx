@@ -9,10 +9,21 @@ export default function TableExpander() {
   useEffect(() => {
     const blogContent = document.querySelector(".blog-content");
     if (!blogContent) return;
+
+    // Remove any previously added expand buttons and unwrap tables
+    blogContent.querySelectorAll(".table-expand-btn").forEach((btn) => btn.remove());
+    blogContent.querySelectorAll(".table-container").forEach((wrapper) => {
+      const table = wrapper.querySelector("table");
+      if (table) wrapper.parentNode?.insertBefore(table, wrapper);
+      wrapper.remove();
+    });
+
     const tables = blogContent.querySelectorAll("table");
+    const wrappers: HTMLDivElement[] = [];
+
     tables.forEach((table) => {
       const wrapper = document.createElement("div");
-      wrapper.style.position = "relative";
+      wrapper.className = "table-container";
       const btn = document.createElement("button");
       btn.className = "table-expand-btn";
       btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg> Expand`;
@@ -27,7 +38,19 @@ export default function TableExpander() {
       table.parentNode?.insertBefore(wrapper, table);
       wrapper.appendChild(table);
       wrapper.appendChild(btn);
+      wrappers.push(wrapper);
     });
+
+    // Cleanup on unmount: unwrap tables and remove buttons
+    return () => {
+      wrappers.forEach((wrapper) => {
+        const table = wrapper.querySelector("table");
+        const btn = wrapper.querySelector(".table-expand-btn");
+        btn?.remove();
+        if (table) wrapper.parentNode?.insertBefore(table, wrapper);
+        wrapper.remove();
+      });
+    };
   }, []);
 
   useEffect(() => {
@@ -38,10 +61,19 @@ export default function TableExpander() {
   return (
     <>
       <style>{`
+        .table-container { position: relative; }
         .table-expand-btn { display: flex; align-items: center; gap: 0.375rem; font-size: 0.75rem; font-weight: 500; color: var(--muted-foreground); background: var(--muted); border: 1px solid var(--border); border-radius: 0.375rem; padding: 0.35rem 0.625rem; cursor: pointer; margin-top: 0.5rem; margin-left: auto; width: fit-content; transition: color 0.15s, border-color 0.15s; }
         .table-expand-btn:hover { color: var(--foreground); border-color: var(--foreground); }
+        dialog[open] { animation: dialog-in 0.2s ease-out; }
+        dialog[open]::backdrop { animation: backdrop-in 0.2s ease-out; }
+        dialog.closing { animation: dialog-out 0.15s ease-in forwards; }
+        dialog.closing::backdrop { animation: backdrop-out 0.15s ease-in forwards; }
+        @keyframes dialog-in { from { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+        @keyframes dialog-out { from { opacity: 1; transform: translate(-50%, -50%) scale(1); } to { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } }
+        @keyframes backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes backdrop-out { from { opacity: 1; } to { opacity: 0; } }
       `}</style>
-      <dialog ref={dialogRef} className="fixed inset-0 w-[95vw] max-h-[80vh] overflow-auto rounded-lg border border-border bg-card p-6 backdrop:bg-black/50" onClick={(e) => { if (e.target === dialogRef.current) setOpen(false); }}>
+      <dialog ref={dialogRef} className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0 w-[95vw] max-w-[95vw] max-h-[80vh] overflow-auto rounded-lg border border-border bg-card p-6 backdrop:bg-black/50" onClick={(e) => { if (e.target === dialogRef.current) setOpen(false); }}>
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-semibold">Table View</h2>
           <button onClick={() => setOpen(false)} className="text-muted-foreground hover:text-foreground">

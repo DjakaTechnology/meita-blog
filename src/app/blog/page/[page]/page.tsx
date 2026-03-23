@@ -3,7 +3,6 @@ import { getAllPostMeta, getAllCategories } from "@/lib/markdown";
 import { paginatePosts, POSTS_PER_PAGE } from "@/lib/pagination";
 import PostList from "@/components/PostList";
 
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   const allPosts = getAllPostMeta();
@@ -14,7 +13,7 @@ export function generateStaticParams() {
 
   // Next.js static export requires at least one param; return page "2" as fallback
   if (params.length === 0) {
-    return [{ page: "2" }];
+    return [];
   }
   return params;
 }

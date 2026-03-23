@@ -5,7 +5,6 @@ import { paginatePosts, POSTS_PER_PAGE } from "@/lib/pagination";
 import PostCard from "@/components/PostCard";
 import Pagination from "@/components/Pagination";
 
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   const authors = getAllAuthors();
@@ -21,7 +20,7 @@ export function generateStaticParams() {
   }
 
   if (params.length === 0) {
-    return [{ author: "__placeholder", page: "2" }];
+    return [];
   }
   return params;
 }

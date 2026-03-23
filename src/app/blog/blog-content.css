@@ -22,7 +22,18 @@
 .blog-content figure { margin: 2rem 0; }
 .blog-content figure img { margin: 0; }
 .blog-content figcaption { font-size: 0.875rem; color: var(--muted-foreground); text-align: center; margin-top: 0.5rem; font-style: italic; }
-.blog-content table { font-size: 0.875rem; border-collapse: collapse; margin: 1.5rem -2rem; width: calc(100% + 4rem); overflow-x: auto; display: block; border: 1px solid var(--border); border-radius: 0.5rem; }
+.blog-content .table-container {
+  margin: 1.5rem -4rem;
+  width: calc(100% + 8rem);
+  overflow-x: auto;
+}
+.blog-content table { font-size: 0.875rem; border-collapse: collapse; width: 100%; border: 1px solid var(--border); border-radius: 0.5rem; display: table; margin: 0; }
+@media (max-width: 768px) {
+  .blog-content .table-container {
+    margin: 1.5rem -1rem;
+    width: calc(100% + 2rem);
+  }
+}
 .blog-content th, .blog-content td { text-align: left; border: 1px solid var(--border); padding: 0.75rem 1.25rem; white-space: nowrap; vertical-align: top; }
 .blog-content th { font-weight: 600; background: var(--muted); vertical-align: middle; }
 .blog-content td:last-child, .blog-content th:last-child { white-space: normal; min-width: 180px; }

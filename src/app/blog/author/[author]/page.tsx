@@ -5,12 +5,11 @@ import { paginatePosts } from "@/lib/pagination";
 import PostCard from "@/components/PostCard";
 import Pagination from "@/components/Pagination";
 
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   const authors = getAllAuthors();
   if (authors.length === 0) {
-    return [{ author: "__placeholder" }];
+    return [];
   }
   return authors.map((a) => ({ author: a.id }));
 }

@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import remarkGfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
@@ -31,7 +32,8 @@ function rewriteImageUrls(html: string, slug: string): string {
       if (entry) {
         return `src="${entry.r2Url}"`;
       }
-      return match;
+      // Fallback: serve from public/content-images/ for dev
+      return `src="/blog/content-images/${relativePath.replace(/^images\//, '')}"`;
     }
   );
 }
@@ -46,6 +48,7 @@ function rewriteCrossLinks(html: string): string {
 async function renderMarkdown(content: string): Promise<string> {
   const result = await unified()
     .use(remarkParse)
+    .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
     .use(rehypeStringify)

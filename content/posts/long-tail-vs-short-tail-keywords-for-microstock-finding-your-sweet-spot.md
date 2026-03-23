@@ -78,6 +78,7 @@ Comparing Keyword Strategies Head-to-Head
 |     **Conversion Rate**     |        Low (Hard to stand out)        |         High (Exact match to needs)         |
 |**Primary Portfolio Benefit**|Broad categorization and index grouping|  Driving immediate sales and ranking bumps  |
 |       **Example Tag**       |               "Coffee"                |"Steaming cup of black coffee on rustic wood"|
+
 ![A person writing down expert microstock tagging tips in a notebook](images/long_tail_vs_short_tail_keywords_for_microstock_finding_your_sweet_spot_129/managed_long_tail_vs_short_tail_keywords_for_microstock_finding_your_sweet_spot_3.webp)
 
 Expert Tips for Balancing Your Keyword Portfolio

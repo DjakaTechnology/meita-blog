@@ -5,12 +5,11 @@ import { paginatePosts } from "@/lib/pagination";
 import PostCard from "@/components/PostCard";
 import Pagination from "@/components/Pagination";
 
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   const categories = getAllCategories();
   if (categories.length === 0) {
-    return [{ category: "__placeholder" }];
+    return [];
   }
   return categories.map((cat) => ({ category: encodeURIComponent(cat) }));
 }
