@@ -1,16 +1,21 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 export default function TableExpander() {
   const [open, setOpen] = useState(false);
   const [tableHtml, setTableHtml] = useState("");
-  const dialogRef = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
     const blogContent = document.querySelector(".blog-content");
     if (!blogContent) return;
 
-    // Remove any previously added expand buttons and unwrap tables
+    // Clean up any previous wrappers (React strict mode)
     blogContent.querySelectorAll(".table-expand-btn").forEach((btn) => btn.remove());
     blogContent.querySelectorAll(".table-container").forEach((wrapper) => {
       const table = wrapper.querySelector("table");
@@ -41,22 +46,16 @@ export default function TableExpander() {
       wrappers.push(wrapper);
     });
 
-    // Cleanup on unmount: unwrap tables and remove buttons
     return () => {
       wrappers.forEach((wrapper) => {
-        const table = wrapper.querySelector("table");
         const btn = wrapper.querySelector(".table-expand-btn");
         btn?.remove();
+        const table = wrapper.querySelector("table");
         if (table) wrapper.parentNode?.insertBefore(table, wrapper);
         wrapper.remove();
       });
     };
   }, []);
-
-  useEffect(() => {
-    if (open) dialogRef.current?.showModal();
-    else dialogRef.current?.close();
-  }, [open]);
 
   return (
     <>
@@ -64,24 +63,18 @@ export default function TableExpander() {
         .table-container { position: relative; }
         .table-expand-btn { display: flex; align-items: center; gap: 0.375rem; font-size: 0.75rem; font-weight: 500; color: var(--muted-foreground); background: var(--muted); border: 1px solid var(--border); border-radius: 0.375rem; padding: 0.35rem 0.625rem; cursor: pointer; margin-top: 0.5rem; margin-left: auto; width: fit-content; transition: color 0.15s, border-color 0.15s; }
         .table-expand-btn:hover { color: var(--foreground); border-color: var(--foreground); }
-        dialog[open] { animation: dialog-in 0.2s ease-out; }
-        dialog[open]::backdrop { animation: backdrop-in 0.2s ease-out; }
-        dialog.closing { animation: dialog-out 0.15s ease-in forwards; }
-        dialog.closing::backdrop { animation: backdrop-out 0.15s ease-in forwards; }
-        @keyframes dialog-in { from { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
-        @keyframes dialog-out { from { opacity: 1; transform: translate(-50%, -50%) scale(1); } to { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } }
-        @keyframes backdrop-in { from { opacity: 0; } to { opacity: 1; } }
-        @keyframes backdrop-out { from { opacity: 1; } to { opacity: 0; } }
       `}</style>
-      <dialog ref={dialogRef} className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 m-0 w-[95vw] max-w-[95vw] max-h-[80vh] overflow-auto rounded-lg border border-border bg-card p-6 backdrop:bg-black/50" onClick={(e) => { if (e.target === dialogRef.current) setOpen(false); }}>
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-lg font-semibold">Table View</h2>
-          <button onClick={() => setOpen(false)} className="text-muted-foreground hover:text-foreground">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-          </button>
-        </div>
-        <div className="blog-content overflow-auto" dangerouslySetInnerHTML={{ __html: tableHtml }} />
-      </dialog>
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-[95vw] max-h-[80vh] overflow-auto">
+          <DialogHeader>
+            <DialogTitle>Table View</DialogTitle>
+          </DialogHeader>
+          <div
+            className="blog-content overflow-auto"
+            dangerouslySetInnerHTML={{ __html: tableHtml }}
+          />
+        </DialogContent>
+      </Dialog>
     </>
   );
 }
