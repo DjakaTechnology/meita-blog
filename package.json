@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/upload-images.mjs && node scripts/generate-search-index.mjs && node scripts/generate-rss.mjs && node scripts/generate-sitemap.mjs && next build",
     "start": "next start",
     "lint": "eslint"
   },
