@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { getAllPostMeta } from "@/lib/markdown";
+import { getAllPostMeta, getAllCategories } from "@/lib/markdown";
 import { paginatePosts, POSTS_PER_PAGE } from "@/lib/pagination";
-import { getAuthor } from "@/lib/authors";
-import PostCard from "@/components/PostCard";
-import Pagination from "@/components/Pagination";
+import PostList from "@/components/PostList";
 
 export const dynamicParams = false;
 
@@ -34,6 +32,7 @@ export default async function PaginatedBlogPage({ params }: { params: Promise<{ 
   const page = parseInt(pageStr, 10);
   const allPosts = getAllPostMeta();
   const { posts, totalPages } = paginatePosts(allPosts, page);
+  const categories = getAllCategories();
 
   return (
     <div className="flex flex-col items-center py-8 px-4 gap-6">
@@ -41,13 +40,7 @@ export default async function PaginatedBlogPage({ params }: { params: Promise<{ 
         <h1 className="text-3xl font-bold mb-2">Blog</h1>
         <p className="text-sm text-muted-foreground">Latest insights and updates from our team</p>
       </div>
-      <div className="grid gap-6 w-full max-w-4xl">
-        {posts.map((post) => {
-          const author = getAuthor(post.authorId);
-          return <PostCard key={post.slug} post={post} authorName={author?.name} />;
-        })}
-      </div>
-      <Pagination currentPage={page} totalPages={totalPages} />
+      <PostList initialPosts={posts} allCategories={categories} totalPages={totalPages} currentPage={page} />
     </div>
   );
 }
