@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-const POSTS_DIR = path.join(process.cwd(), "content/posts");
+const POSTS_DIR = path.join(process.cwd(), "content");
 const AUTHORS_PATH = path.join(process.cwd(), "content/authors.json");
 const OUTPUT_PATH = path.join(process.cwd(), "public/sitemap.xml");
 

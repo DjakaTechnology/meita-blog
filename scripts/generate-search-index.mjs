@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
 
-const POSTS_DIR = path.join(process.cwd(), "content/posts");
+const POSTS_DIR = path.join(process.cwd(), "content");
 const OUTPUT_PATH = path.join(process.cwd(), "public/search-index.json");
 const MANIFEST_PATH = path.join(process.cwd(), "content/.image-manifest.json");
 

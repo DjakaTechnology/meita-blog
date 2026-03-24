@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-const POSTS_DIR = path.join(process.cwd(), "content/posts");
+const POSTS_DIR = path.join(process.cwd(), "content");
 const OUTPUT_PATH = path.join(process.cwd(), "public/rss.xml");
 
 function main() {

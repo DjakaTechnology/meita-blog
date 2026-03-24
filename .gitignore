@@ -49,3 +49,5 @@ public/search-index.json
 public/rss.xml
 public/sitemap.xml
 public/content-images/
+
+.vercel

@@ -10,7 +10,7 @@ import rehypeStringify from "rehype-stringify";
 import readingTime from "reading-time";
 import type { Post, PostMeta, PostFrontmatter } from "./types";
 
-const POSTS_DIR = path.join(process.cwd(), "content/posts");
+const POSTS_DIR = path.join(process.cwd(), "content");
 const MANIFEST_PATH = path.join(process.cwd(), "content/.image-manifest.json");
 
 function loadManifest(): Record<string, { r2Url: string; contentHash: string }> {

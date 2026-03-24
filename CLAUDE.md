@@ -26,7 +26,7 @@ Matches the metadata-editor project (meita.ai main site):
 
 ## Content
 
-- Markdown articles in `content/posts/`
+- Markdown articles in `content/` (flat, no subfolder)
 - Author data in `content/authors.json`
 - Images in `content/images/` (uploaded to R2 at build time)
 - Image manifest at `content/.image-manifest.json` (committed to git for caching)
