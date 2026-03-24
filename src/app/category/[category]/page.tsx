@@ -65,7 +65,7 @@ export default async function CategoryPage({
       <Pagination
         currentPage={1}
         totalPages={totalPages}
-        basePath={`/blog/category/${encodeURIComponent(category)}`}
+        basePath={`/category/${encodeURIComponent(category)}`}
       />
     </div>
   );

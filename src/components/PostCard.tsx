@@ -9,7 +9,7 @@ interface PostCardProps {
 export default function PostCard({ post, authorName }: PostCardProps) {
   return (
     <Link
-      href={`/blog/${post.slug}`}
+      href={`/${post.slug}`}
       className="group block rounded-xl border border-border bg-card overflow-hidden hover:border-primary/40 hover:shadow-lg transition-all duration-300 no-underline"
     >
       {post.image && (

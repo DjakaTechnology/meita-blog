@@ -16,7 +16,7 @@ export default function Footer() {
           <nav className="flex flex-col gap-2 text-sm">
             <Link href="https://meita.ai/download" className="hover:text-zinc-50 transition-colors">Download</Link>
             <Link href="https://meita.ai/en-us/pricing" className="hover:text-zinc-50 transition-colors">Pricing</Link>
-            <Link href="/blog" className="hover:text-zinc-50 transition-colors">Blog</Link>
+            <Link href="/" className="hover:text-zinc-50 transition-colors">Blog</Link>
           </nav>
         </div>
         <div className="flex flex-col gap-3">

@@ -6,7 +6,7 @@ interface PaginationProps {
   basePath?: string;
 }
 
-export default function Pagination({ currentPage, totalPages, basePath = "/blog" }: PaginationProps) {
+export default function Pagination({ currentPage, totalPages, basePath = "/" }: PaginationProps) {
   if (totalPages <= 1) return null;
 
   const pages = Array.from({ length: totalPages }, (_, i) => i + 1);

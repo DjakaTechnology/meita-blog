@@ -29,11 +29,17 @@ function main() {
     if (data.draft) continue;
     const slug = file.replace(/\.md$/, "");
     const stats = readingTime(content);
-    let heroImage = data.image || "";
+    const firstImageMatch = content.match(/!\[[^\]]*\]\((images\/[^)]+)\)/);
+    let heroImage = data.image || (firstImageMatch ? firstImageMatch[1] : "") || "";
     if (heroImage && !heroImage.startsWith("http")) {
-      const heroKey = `images/${slug}/${heroImage}`;
-      const entry = manifest[heroKey];
-      if (entry) heroImage = entry.r2Url;
+      const dirName = heroImage.replace(/^images\//, "").split("/")[0];
+      const fileName = path.basename(heroImage);
+      const entry = manifest[heroImage] || manifest[`images/${slug}/${fileName}`];
+      if (entry) {
+        heroImage = entry.r2Url;
+      } else {
+        heroImage = `/blog/content-images/${heroImage.replace(/^images\//, "")}`;
+      }
     }
     posts.push({ slug, title: data.title, description: data.description, date: data.date, categories: data.categories || [], authorId: data.author, image: heroImage, readingTime: stats.text });
   }

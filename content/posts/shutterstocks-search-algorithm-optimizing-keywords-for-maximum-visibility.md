@@ -1,7 +1,7 @@
 ---
 title: "Shutterstock Search Algorithm: Boost Keyword Ranking"
 description: "Master the Shutterstock search algorithm to boost your keyword ranking, increase image visibility, and drive more consistent microstock photo sales."
-date: "2026-02-17T16:50:25+07:00"
+date: "2026-03-25T20:34:15+07:00"
 draft: false
 categories:
 - "what makes a good microstock keyword and sell more"

@@ -22,6 +22,22 @@ function loadManifest(): Record<string, { r2Url: string; contentHash: string }> 
   }
 }
 
+function resolveImageUrl(
+  relativePath: string,
+  slug: string,
+  manifest: Record<string, { r2Url: string; contentHash: string }>
+): string {
+  const manifestKey = `images/${slug}/${path.basename(relativePath)}`;
+  const entry = manifest[relativePath] || manifest[manifestKey];
+  if (entry) return entry.r2Url;
+  return `/blog/content-images/${relativePath.replace(/^images\//, "")}`;
+}
+
+function extractFirstImage(markdown: string): string | null {
+  const match = markdown.match(/!\[[^\]]*\]\((images\/[^)]+)\)/);
+  return match ? match[1] : null;
+}
+
 function rewriteImageUrls(html: string, slug: string): string {
   const manifest = loadManifest();
   return html.replace(
@@ -73,11 +89,15 @@ export async function getPost(slug: string): Promise<Post | undefined> {
   const stats = readingTime(content);
   const manifest = loadManifest();
 
-  let heroImage = frontmatter.image || "";
+  const firstBodyImage = extractFirstImage(content);
+  let heroImage = frontmatter.image || firstBodyImage || "";
   if (heroImage && !heroImage.startsWith("http")) {
-    const heroKey = `images/${slug}/${heroImage}`;
-    const entry = manifest[heroKey];
-    if (entry) heroImage = entry.r2Url;
+    heroImage = resolveImageUrl(heroImage, slug, manifest);
+  }
+
+  // Remove the first image from body content when it's promoted to hero
+  if (heroImage && firstBodyImage && !frontmatter.image) {
+    html = html.replace(/<p>\s*<img[^>]*>\s*<\/p>/, "");
   }
 
   return {
@@ -111,11 +131,9 @@ export function getAllPostMeta(): PostMeta[] {
     const slug = file.replace(/\.md$/, "");
     const stats = readingTime(content);
 
-    let heroImage = frontmatter.image || "";
+    let heroImage = frontmatter.image || extractFirstImage(content) || "";
     if (heroImage && !heroImage.startsWith("http")) {
-      const heroKey = `images/${slug}/${heroImage}`;
-      const entry = manifest[heroKey];
-      if (entry) heroImage = entry.r2Url;
+      heroImage = resolveImageUrl(heroImage, slug, manifest);
     }
 
     posts.push({

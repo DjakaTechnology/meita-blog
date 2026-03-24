@@ -1,7 +1,7 @@
 ---
 title: "Microstock Keyword Differences: Adapt Your Strategy"
 description: "Understand crucial microstock keyword differences and build a platform-specific keywording strategy to maximize your image sales across all major agencies."
-date: "2026-02-15T13:39:57+07:00"
+date: "2026-03-23T08:29:23+07:00"
 draft: false
 categories:
 - "what makes a good microstock keyword and sell more"

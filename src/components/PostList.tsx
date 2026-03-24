@@ -27,7 +27,7 @@ interface SearchIndexEntry {
   readingTime: string;
 }
 
-export default function PostList({ initialPosts, allCategories, totalPages, currentPage, basePath = "/blog" }: PostListProps) {
+export default function PostList({ initialPosts, allCategories, totalPages, currentPage, basePath = "/" }: PostListProps) {
   const [query, setQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<PostMeta[] | null>(null);
@@ -68,7 +68,7 @@ export default function PostList({ initialPosts, allCategories, totalPages, curr
   const displayPosts = isFiltering ? (searchResults || []) : initialPosts;
 
   return (
-    <div className="w-full max-w-4xl flex flex-col gap-6">
+    <div className="w-full max-w-2xl flex flex-col gap-6">
       <div className="flex flex-col items-center gap-4">
         <SearchBar value={query} onChange={(v) => { setQuery(v); if (v.length > 0) loadSearchIndex(); }} />
         <CategoryFilter categories={allCategories} selected={selectedCategory} onSelect={(cat) => { setSelectedCategory(cat); if (cat) loadSearchIndex(); }} />

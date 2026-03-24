@@ -31,7 +31,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <Link href="/blog" className="px-4 py-2 text-sm font-medium rounded-md hover:bg-muted transition-colors text-primary">Blog</Link>
+          <Link href="/" className="px-4 py-2 text-sm font-medium rounded-md hover:bg-muted transition-colors text-primary">Blog</Link>
         </nav>
         <button className="md:hidden inline p-2" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ export default function Header() {
           <Link href="https://meita.ai/token" className="px-4 py-2 text-sm rounded-md hover:bg-muted" onClick={() => setMenuOpen(false)}>Token</Link>
           <Link href="https://meita.ai/download" className="px-4 py-2 text-sm rounded-md hover:bg-muted" onClick={() => setMenuOpen(false)}>Download</Link>
           <Link href="https://meita.ai/remove-bg" className="px-4 py-2 text-sm rounded-md hover:bg-muted" onClick={() => setMenuOpen(false)}>Remove BG</Link>
-          <Link href="/blog" className="px-4 py-2 text-sm rounded-md hover:bg-muted text-primary" onClick={() => setMenuOpen(false)}>Blog</Link>
+          <Link href="/" className="px-4 py-2 text-sm rounded-md hover:bg-muted text-primary" onClick={() => setMenuOpen(false)}>Blog</Link>
         </div>
       )}
     </div>

@@ -77,7 +77,7 @@ export default async function PaginatedCategoryPage({
       <Pagination
         currentPage={page}
         totalPages={totalPages}
-        basePath={`/blog/category/${encodeURIComponent(category)}`}
+        basePath={`/category/${encodeURIComponent(category)}`}
       />
     </div>
   );

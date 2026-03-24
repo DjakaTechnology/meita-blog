@@ -5,7 +5,7 @@ import { getAuthorOrThrow } from "@/lib/authors";
 import TableExpander from "@/components/TableExpander";
 import RelatedPosts from "@/components/RelatedPosts";
 import Link from "next/link";
-import "@/app/blog/blog-content.css";
+import "@/app/blog-content.css";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -33,11 +33,24 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const allPosts = getAllPostMeta();
   const related = allPosts.filter((p) => p.slug !== post.slug && p.categories.some((c) => post.categories.includes(c))).slice(0, 3);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    url: `https://meita.ai/blog/${post.slug}`,
+    author: { "@type": "Organization", name: author.name },
+    publisher: { "@type": "Organization", name: "Meita.ai", url: "https://meita.ai" },
+    ...(post.image && { image: post.image }),
+  };
+
   return (
     <article className="max-w-[680px] mx-auto px-4 py-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="flex flex-col pt-4 pb-6 border-b border-border mb-6">
         <div className="mb-4">
-          <Link href="/blog" className="inline-flex items-center text-sm text-primary hover:text-primary/80 font-medium transition-colors duration-200">
+          <Link href="/" className="inline-flex items-center text-sm text-primary hover:text-primary/80 font-medium transition-colors duration-200">
             <svg className="w-3.5 h-3.5 mr-1.5 rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             All Articles
           </Link>
