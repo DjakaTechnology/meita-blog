@@ -2,6 +2,16 @@ import fs from "fs";
 import path from "path";
 import crypto from "crypto";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { fileURLToPath } from "url";
+
+// Load .env if it exists (local dev); on Vercel, env vars are injected directly
+const envPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "../.env");
+if (fs.existsSync(envPath)) {
+  for (const line of fs.readFileSync(envPath, "utf-8").split("\n")) {
+    const match = line.match(/^\s*([^#=]+?)\s*=\s*(.*?)\s*$/);
+    if (match && !process.env[match[1]]) process.env[match[1]] = match[2];
+  }
+}
 
 const IMAGES_DIR = path.join(process.cwd(), "content/images");
 const MANIFEST_PATH = path.join(process.cwd(), "content/.image-manifest.json");
