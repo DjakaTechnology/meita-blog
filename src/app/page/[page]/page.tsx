@@ -8,24 +8,23 @@ export function generateStaticParams() {
   const allPosts = getAllPostMeta();
   const totalPages = Math.ceil(Math.max(1, allPosts.length) / POSTS_PER_PAGE);
 
-  // Generate pagination routes for all pages
-  return Array.from({ length: totalPages }, (_, i) => ({
-    page: i === 0 ? undefined : [String(i + 1)],
-  })).filter(p => p.page !== undefined);
+  // Only generate pagination routes for pages 2+
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    page: String(i + 2),
+  }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ page?: string[] }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
   const { page } = await params;
-  const pageNum = page?.[0] ?? "1";
   return {
-    title: page ? `Blog — Page ${pageNum}` : "Blog",
-    alternates: { canonical: page ? `https://meita.ai/blog/page/${pageNum}` : "https://meita.ai/blog" },
+    title: `Blog — Page ${page}`,
+    alternates: { canonical: `https://meita.ai/blog/page/${page}` },
   };
 }
 
-export default async function PaginatedBlogPage({ params }: { params: Promise<{ page?: string[] }> }) {
-  const { page: pageArray } = await params;
-  const page = pageArray ? parseInt(pageArray[0], 10) : 1;
+export default async function PaginatedBlogPage({ params }: { params: Promise<{ page: string }> }) {
+  const { page: pageStr } = await params;
+  const page = parseInt(pageStr, 10);
   const allPosts = getAllPostMeta();
   const { posts, totalPages } = paginatePosts(allPosts, page);
   const categories = getAllCategories();
