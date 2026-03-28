@@ -19,9 +19,6 @@ export function generateStaticParams() {
     }
   }
 
-  if (params.length === 0) {
-    return [];
-  }
   return params;
 }
 

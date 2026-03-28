@@ -7,15 +7,11 @@ import PostList from "@/components/PostList";
 export function generateStaticParams() {
   const allPosts = getAllPostMeta();
   const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
-  const params = Array.from({ length: totalPages }, (_, i) => ({
+  const params = Array.from({ length: Math.max(1, totalPages) }, (_, i) => ({
     page: String(i + 1),
   })).filter((p) => p.page !== "1");
 
-  // Next.js static export requires at least one param; return page "2" as fallback
-  if (params.length === 0) {
-    return [];
-  }
-  return params;
+  return params.length === 0 ? [] : params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
