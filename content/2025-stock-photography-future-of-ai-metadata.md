@@ -3,6 +3,7 @@ title: "2025 Stock Photography Future of AI Metadata Trends"
 description: "Discover the 2025 stock photography future of ai metadata. Learn how AI tools like Meita.ai improve keywording, boost sales, and streamline microstock uploads."
 date: "2026-04-12T21:18:51+07:00"
 draft: false
+author: "jake-miller"
 categories:
 - "2025 stock photography future of ai metadata"
 

@@ -4,5 +4,11 @@
     "name": "Meita Team",
     "avatar": "meita.webp",
     "bio": "The Meita.ai team — building AI-powered metadata tools for stock photographers."
+  },
+  {
+    "id": "jake-miller",
+    "name": "Jake Miller",
+    "avatar": "jake-miller.webp",
+    "bio": ""
   }
 ]

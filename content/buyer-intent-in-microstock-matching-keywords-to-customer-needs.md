@@ -7,7 +7,7 @@ categories:
 - "Buyer Intent in Microstock: Matching Keywords to Customer Needs"
 
 
-author: "meita"
+author: "jake-miller"
 image: ""
 ---
 

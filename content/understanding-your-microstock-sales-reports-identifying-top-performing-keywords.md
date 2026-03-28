@@ -7,7 +7,7 @@ categories:
 - "what makes a good microstock keyword and sell more"
 
 
-author: "meita"
+author: "jake-miller"
 image: ""
 ---
 

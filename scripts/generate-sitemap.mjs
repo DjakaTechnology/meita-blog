@@ -6,6 +6,10 @@ const POSTS_DIR = path.join(process.cwd(), "content");
 const AUTHORS_PATH = path.join(process.cwd(), "content/authors.json");
 const OUTPUT_PATH = path.join(process.cwd(), "public/sitemap.xml");
 
+function isPublished(dateString) {
+  return new Date(dateString) <= new Date();
+}
+
 function main() {
   const urls = [];
   urls.push({ loc: "https://meita.ai/blog", changefreq: "daily", priority: "1.0" });
@@ -16,7 +20,7 @@ function main() {
     for (const file of files) {
       const raw = fs.readFileSync(path.join(POSTS_DIR, file), "utf-8");
       const { data } = matter(raw);
-      if (data.draft) continue;
+      if (data.draft || !isPublished(data.date)) continue;
       const slug = file.replace(/\.md$/, "");
       urls.push({ loc: `https://meita.ai/blog/${slug}`, lastmod: new Date(data.date).toISOString().split("T")[0], changefreq: "monthly", priority: "0.8" });
       (data.categories || []).forEach((c) => categories.add(c));

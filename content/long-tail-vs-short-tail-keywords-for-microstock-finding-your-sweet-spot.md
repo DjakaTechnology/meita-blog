@@ -7,7 +7,7 @@ categories:
 - "Long-Tail vs. Short-Tail Keywords for Microstock: Finding Your Sweet Spot"
 
 
-author: "meita"
+author: "jake-miller"
 image: ""
 ---
 

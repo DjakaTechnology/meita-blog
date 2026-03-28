@@ -6,7 +6,7 @@ draft: false
 categories:
 - "microstock platform changes"
 
-author: "meita"
+author: "jake-miller"
 image: "images/adobe_stock_new_limit/blog-adobe-stock-limit.webp"
 ---
 

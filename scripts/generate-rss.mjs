@@ -5,6 +5,10 @@ import matter from "gray-matter";
 const POSTS_DIR = path.join(process.cwd(), "content");
 const OUTPUT_PATH = path.join(process.cwd(), "public/rss.xml");
 
+function isPublished(dateString) {
+  return new Date(dateString) <= new Date();
+}
+
 function main() {
   if (!fs.existsSync(POSTS_DIR)) {
     console.log("No posts found. Skipping RSS generation.");
@@ -15,7 +19,7 @@ function main() {
   for (const file of files) {
     const raw = fs.readFileSync(path.join(POSTS_DIR, file), "utf-8");
     const { data } = matter(raw);
-    if (data.draft) continue;
+    if (data.draft || !isPublished(data.date)) continue;
     posts.push({ slug: file.replace(/\.md$/, ""), title: data.title, description: data.description, date: data.date, categories: data.categories || [] });
   }
   posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());

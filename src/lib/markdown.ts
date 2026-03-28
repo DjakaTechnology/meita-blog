@@ -10,6 +10,10 @@ import rehypeStringify from "rehype-stringify";
 import readingTime from "reading-time";
 import type { Post, PostMeta, PostFrontmatter } from "./types";
 
+function isPublished(dateString: string): boolean {
+  return new Date(dateString) <= new Date();
+}
+
 const POSTS_DIR = path.join(process.cwd(), "content");
 const MANIFEST_PATH = path.join(process.cwd(), "content/.image-manifest.json");
 
@@ -80,7 +84,7 @@ export async function getPost(slug: string): Promise<Post | undefined> {
   const { data, content } = matter(raw);
   const frontmatter = data as PostFrontmatter;
 
-  if (frontmatter.draft) return undefined;
+  if (frontmatter.draft || !isPublished(frontmatter.date)) return undefined;
 
   let html = await renderMarkdown(content);
   html = rewriteImageUrls(html, slug);
@@ -126,7 +130,7 @@ export function getAllPostMeta(): PostMeta[] {
     const { data, content } = matter(raw);
     const frontmatter = data as PostFrontmatter;
 
-    if (frontmatter.draft) continue;
+    if (frontmatter.draft || !isPublished(frontmatter.date)) continue;
 
     const slug = file.replace(/\.md$/, "");
     const stats = readingTime(content);

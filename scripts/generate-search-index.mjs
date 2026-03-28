@@ -7,6 +7,10 @@ const POSTS_DIR = path.join(process.cwd(), "content");
 const OUTPUT_PATH = path.join(process.cwd(), "public/search-index.json");
 const MANIFEST_PATH = path.join(process.cwd(), "content/.image-manifest.json");
 
+function isPublished(dateString) {
+  return new Date(dateString) <= new Date();
+}
+
 function loadManifest() {
   try { return JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf-8")); } catch { return {}; }
 }
@@ -26,7 +30,7 @@ function main() {
   for (const file of files) {
     const raw = fs.readFileSync(path.join(POSTS_DIR, file), "utf-8");
     const { data, content } = matter(raw);
-    if (data.draft) continue;
+    if (data.draft || !isPublished(data.date)) continue;
     const slug = file.replace(/\.md$/, "");
     const stats = readingTime(content);
     const firstImageMatch = content.match(/!\[[^\]]*\]\((images\/[^)]+)\)/);
