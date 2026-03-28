@@ -9,13 +9,18 @@ import Pagination from "@/components/Pagination";
 export function generateStaticParams() {
   const authors = getAllAuthors();
   const allPosts = getAllPostMeta();
-  const params: { author: string; page: string }[] = [];
+  const params: { author: string; page?: string[] }[] = [];
 
   for (const a of authors) {
     const filtered = allPosts.filter((p) => p.authorId === a.id);
     const totalPages = Math.ceil(Math.max(1, filtered.length) / POSTS_PER_PAGE);
+
+    // Add base page (no page param)
+    params.push({ author: a.id });
+
+    // Add pagination pages
     for (let i = 2; i <= totalPages; i++) {
-      params.push({ author: a.id, page: String(i) });
+      params.push({ author: a.id, page: [String(i)] });
     }
   }
 
@@ -25,16 +30,17 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ author: string; page: string }>;
+  params: Promise<{ author: string; page?: string[] }>;
 }): Promise<Metadata> {
   const { author: authorId, page } = await params;
   const author = getAuthor(authorId);
   const name = author?.name ?? authorId;
+  const pageNum = page?.[0] ?? "1";
   return {
-    title: `${name} — Page ${page} — Blog`,
+    title: page ? `${name} — Page ${pageNum} — Blog` : `${name} — Blog`,
     description: author?.bio ?? `Posts by ${name}`,
     alternates: {
-      canonical: `https://meita.ai/blog/author/${authorId}/page/${page}`,
+      canonical: page ? `https://meita.ai/blog/author/${authorId}/page/${pageNum}` : `https://meita.ai/blog/author/${authorId}`,
     },
   };
 }
@@ -42,10 +48,10 @@ export async function generateMetadata({
 export default async function PaginatedAuthorPage({
   params,
 }: {
-  params: Promise<{ author: string; page: string }>;
+  params: Promise<{ author: string; page?: string[] }>;
 }) {
-  const { author: authorId, page: pageStr } = await params;
-  const page = parseInt(pageStr, 10);
+  const { author: authorId, page: pageArray } = await params;
+  const page = pageArray ? parseInt(pageArray[0], 10) : 1;
   const author = getAuthor(authorId);
 
   const allPosts = getAllPostMeta().filter((p) => p.authorId === authorId);
@@ -66,7 +72,7 @@ export default async function PaginatedAuthorPage({
             <h1 className="text-3xl font-bold mb-2">{author.name}</h1>
             {author.bio && (
               <p className="text-sm text-muted-foreground">
-                {author.bio} — Page {page}
+                {author.bio}{page > 1 ? ` — Page ${page}` : ""}
               </p>
             )}
           </div>
