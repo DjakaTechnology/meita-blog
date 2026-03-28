@@ -1,14 +1,15 @@
 ---
-title: "Microstock Title Optimization & Description SEO Guide"
-description: "Discover how mastering microstock description SEO and title optimization can skyrocket your stock photo sales. Learn expert strategies to rank higher today."
-date: "2026-03-31T00:44:57+07:00"
+title: Microstock Title Optimization & Description SEO Guide
+description: >-
+  Discover how mastering microstock description SEO and title optimization can
+  skyrocket your stock photo sales. Learn expert strategies to rank higher
+  today.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Creative professional typing metadata for stock photos on a dual monitor setup](images/the_role_of_descriptions_and_titles_in_microstock_seo_beyond_just_keywords_134/managed_the_role_of_descriptions_and_titles_in_microstock_seo_beyond_just_keywords_0.webp)

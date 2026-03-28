@@ -1,14 +1,15 @@
 ---
-title: "Microstock Keyword Differences: Adapt Your Strategy"
-description: "Understand crucial microstock keyword differences and build a platform-specific keywording strategy to maximize your image sales across all major agencies."
-date: "2026-03-23T08:29:23+07:00"
+title: 'Microstock Keyword Differences: Adapt Your Strategy'
+description: >-
+  Understand crucial microstock keyword differences and build a
+  platform-specific keywording strategy to maximize your image sales across all
+  major agencies.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Creative professional analyzing microstock keyword differences on multiple computer screens](images/microstock_platform_differences_adapting_your_keyword_strategy_for_each_marketplace_142/managed_microstock_platform_differences_adapting_your_keyword_strategy_for_each_marketplace_0.webp)

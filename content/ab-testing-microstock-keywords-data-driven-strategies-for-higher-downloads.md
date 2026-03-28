@@ -1,14 +1,15 @@
 ---
-title: "A/B Testing Microstock Keywords for Higher Sales"
-description: "Learn how A/B testing microstock keywords can skyrocket your downloads. Discover data-driven keywording strategies to optimize your metadata and sell more."
-date: "2026-03-30T13:36:30+07:00"
+title: A/B Testing Microstock Keywords for Higher Sales
+description: >-
+  Learn how A/B testing microstock keywords can skyrocket your downloads.
+  Discover data-driven keywording strategies to optimize your metadata and sell
+  more.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![A/B testing microstock keywords analytics dashboard on a laptop](images/a_b_testing_microstock_keywords_data_driven_strategies_for_higher_downloads_135/managed_a_b_testing_microstock_keywords_data_driven_strategies_for_higher_downloads_0.webp)

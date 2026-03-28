@@ -1,14 +1,15 @@
 ---
-title: "Keyword Spamming Microstock: Why It Ruins Your Sales"
-description: "Discover how keyword spamming microstock destroys your sales and account health. Learn why irrelevant microstock keywords lead to penalties and how AI fixes it."
-date: "2026-03-26T22:46:35+07:00"
+title: 'Keyword Spamming Microstock: Why It Ruins Your Sales'
+description: >-
+  Discover how keyword spamming microstock destroys your sales and account
+  health. Learn why irrelevant microstock keywords lead to penalties and how AI
+  fixes it.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![A frustrated stock photographer looking at a laptop screen showing a declining sales graph due to keyword spamming microstock](placeholder)

@@ -1,14 +1,15 @@
 ---
-title: "Microstock Competitor Keywords: Rank Higher With AI"
-description: "Discover how to use AI competitor analysis in microstock to find profitable keywords, uncover content gaps, and outrank top-selling stock photography portfolios."
-date: "2026-04-02T08:43:39+07:00"
+title: 'Microstock Competitor Keywords: Rank Higher With AI'
+description: >-
+  Discover how to use AI competitor analysis in microstock to find profitable
+  keywords, uncover content gaps, and outrank top-selling stock photography
+  portfolios.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![A glowing digital magnifying glass hovering over glowing keywords on a futuristic dashboard](images/competitor_keyword_analysis_for_microstock_outranking_the_competition_with_ai_132/managed_competitor_keyword_analysis_for_microstock_outranking_the_competition_with_ai_0.webp)

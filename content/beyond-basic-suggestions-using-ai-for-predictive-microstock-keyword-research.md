@@ -1,14 +1,15 @@
 ---
-title: "AI Predictive Keyword Research Microstock Strategies"
-description: "Discover how to boost your stock photography sales using AI predictive keyword research microstock strategies. Learn advanced AI keywording to outrank competitors."
-date: "2026-04-03T01:57:00+07:00"
+title: AI Predictive Keyword Research Microstock Strategies
+description: >-
+  Discover how to boost your stock photography sales using AI predictive keyword
+  research microstock strategies. Learn advanced AI keywording to outrank
+  competitors.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Futuristic AI dashboard analyzing microstock photography trends](images/beyond_basic_suggestions_using_ai_for_predictive_microstock_keyword_research_131/managed_beyond_basic_suggestions_using_ai_for_predictive_microstock_keyword_research_0.webp)

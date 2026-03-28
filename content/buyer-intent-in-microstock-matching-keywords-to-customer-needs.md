@@ -1,14 +1,15 @@
 ---
-title: "Microstock Buyer Intent: Match Keywords to Customer Needs"
-description: "Discover how to increase your image sales by mastering microstock buyer intent. Learn keyword research strategies to match your portfolio with customer needs."
-date: "2026-04-06T09:19:17+07:00"
+title: 'Microstock Buyer Intent: Match Keywords to Customer Needs'
+description: >-
+  Discover how to increase your image sales by mastering microstock buyer
+  intent. Learn keyword research strategies to match your portfolio with
+  customer needs.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "Buyer Intent in Microstock: Matching Keywords to Customer Needs"
-
-
-author: "jake-miller"
-image: ""
+  - 'Buyer Intent in Microstock: Matching Keywords to Customer Needs'
+author: jake-miller
+image: ''
 ---
 
 ![A diverse creative team analyzing search data and stock photos on glowing computer monitors in a modern office](images/buyer_intent_in_microstock_matching_keywords_to_customer_needs_128/managed_buyer_intent_in_microstock_matching_keywords_to_customer_needs_0.webp)

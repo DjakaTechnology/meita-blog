@@ -1,14 +1,15 @@
 ---
-title: "Microstock Sales Analytics: Find Top Keywords Fast"
-description: "Master your microstock sales analytics to identify top performing microstock keywords. Learn to read dashboards, track downloads, and boost your stock photography earnings."
-date: "2026-03-29T00:04:58+07:00"
+title: 'Microstock Sales Analytics: Find Top Keywords Fast'
+description: >-
+  Master your microstock sales analytics to identify top performing microstock
+  keywords. Learn to read dashboards, track downloads, and boost your stock
+  photography earnings.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Photographer analyzing microstock sales analytics on a modern desktop monitor](images/understanding_your_microstock_sales_reports_identifying_top_performing_keywords_136/managed_understanding_your_microstock_sales_reports_identifying_top_performing_keywords_0.webp)

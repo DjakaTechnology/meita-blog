@@ -1,14 +1,15 @@
 ---
-title: "Long-Tail vs Short-Tail Microstock Keywords Strategy"
-description: "Discover the ultimate strategy for balancing long-tail vs short-tail microstock keywords. Learn how to optimize your portfolio metadata to rank higher and sell more."
-date: "2026-04-05T18:04:07+07:00"
+title: Long-Tail vs Short-Tail Microstock Keywords Strategy
+description: >-
+  Discover the ultimate strategy for balancing long-tail vs short-tail
+  microstock keywords. Learn how to optimize your portfolio metadata to rank
+  higher and sell more.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "Long-Tail vs. Short-Tail Keywords for Microstock: Finding Your Sweet Spot"
-
-
-author: "jake-miller"
-image: ""
+  - 'Long-Tail vs. Short-Tail Keywords for Microstock: Finding Your Sweet Spot'
+author: jake-miller
+image: ''
 ---
 
 ![A balanced scale comparing long-tail microstock keywords with short-tail tags on a vibrant background](images/long_tail_vs_short_tail_keywords_for_microstock_finding_your_sweet_spot_129/managed_long_tail_vs_short_tail_keywords_for_microstock_finding_your_sweet_spot_0.webp)

@@ -1,14 +1,15 @@
 ---
-title: "Avoid Generic Microstock Keywords to Boost Your Sales"
-description: "Learn why you must avoid generic microstock keywords to increase your image sales. Discover actionable strategies to find specific microstock keywords today."
-date: "2026-03-27T11:07:23+07:00"
+title: Avoid Generic Microstock Keywords to Boost Your Sales
+description: >-
+  Learn why you must avoid generic microstock keywords to increase your image
+  sales. Discover actionable strategies to find specific microstock keywords
+  today.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Photographer analyzing specific microstock keywords on a computer screen to increase sales](images/avoiding_generic_keywords_in_microstock_strategies_for_specificity_and_uniqueness_138/managed_avoiding_generic_keywords_in_microstock_strategies_for_specificity_and_uniqueness_0.webp)

@@ -1,14 +1,14 @@
 ---
-title: "Over Keywording Microstock: The Perfect Balance"
-description: "Discover the dangers of over keywording microstock vs under keywording. Learn how to find the perfect keyword balance to boost your sales and visibility."
-date: "2026-03-28T06:18:03+07:00"
+title: 'Over Keywording Microstock: The Perfect Balance'
+description: >-
+  Discover the dangers of over keywording microstock vs under keywording. Learn
+  how to find the perfect keyword balance to boost your sales and visibility.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![A balanced scale with a camera on one side and keywords on the other](images/over_keywording_vs_under_keywording_finding_the_right_balance_for_microstock_137/managed_over_keywording_vs_under_keywording_finding_the_right_balance_for_microstock_0.webp)

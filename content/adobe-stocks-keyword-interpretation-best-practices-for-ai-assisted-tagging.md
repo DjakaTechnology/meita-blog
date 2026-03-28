@@ -1,14 +1,15 @@
 ---
-title: "Adobe Stock Keyword Interpretation: AI Tagging Guide"
-description: "Master Adobe Stock keyword interpretation with our comprehensive guide. Discover AI keywording best practices, optimize your top 10 tags, and sell more visual assets."
-date: "2026-03-24T23:35:47+07:00"
+title: 'Adobe Stock Keyword Interpretation: AI Tagging Guide'
+description: >-
+  Master Adobe Stock keyword interpretation with our comprehensive guide.
+  Discover AI keywording best practices, optimize your top 10 tags, and sell
+  more visual assets.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Photographer analyzing Adobe Stock keyword interpretation on a dual-monitor setup](images/adobe_stock_s_keyword_interpretation_best_practices_for_ai_assisted_tagging_141/managed_adobe_stock_s_keyword_interpretation_best_practices_for_ai_assisted_tagging_0.webp)

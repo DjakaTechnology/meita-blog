@@ -1,13 +1,15 @@
 ---
-title: "Adobe Stock Introduces Submission Limits for Contributors"
-description: "Adobe Stock has implemented new submission limits for contributors to maintain content quality and combat spam. Learn about the changes, community reactions, and implications for contributors."
-date: "2025-05-10T00:00:00+07:00"
+title: Adobe Stock Introduces Submission Limits for Contributors
+description: >-
+  Adobe Stock has implemented new submission limits for contributors to maintain
+  content quality and combat spam. Learn about the changes, community reactions,
+  and implications for contributors.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "microstock platform changes"
-
-author: "jake-miller"
-image: "images/adobe_stock_new_limit/blog-adobe-stock-limit.webp"
+  - microstock platform changes
+author: jake-miller
+image: images/adobe_stock_new_limit/blog-adobe-stock-limit.webp
 ---
 
 ![Adobe Stock contributor dashboard showing submission limit warning on a photographer's desk](images/adobe_stock_new_limit/blog-adobe-stock-limit.webp)

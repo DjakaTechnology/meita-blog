@@ -1,14 +1,15 @@
 ---
-title: "Seasonal Microstock Keywords: Boost Sales With AI"
-description: "Discover how to boost your stock photography sales by mastering seasonal microstock keywords. Learn how AI tools can predict trends and optimize your metadata."
-date: "2026-04-01T16:06:58+07:00"
+title: 'Seasonal Microstock Keywords: Boost Sales With AI'
+description: >-
+  Discover how to boost your stock photography sales by mastering seasonal
+  microstock keywords. Learn how AI tools can predict trends and optimize your
+  metadata.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![Photographer analyzing seasonal microstock keywords on a glowing AI dashboard](images/seasonal_trending_microstock_keywords_capitalizing_on_timely_opportunities_with_ai_133/managed_seasonal_trending_microstock_keywords_capitalizing_on_timely_opportunities_with_ai_0.webp)

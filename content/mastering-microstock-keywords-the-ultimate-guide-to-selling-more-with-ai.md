@@ -1,14 +1,15 @@
 ---
-title: "Good Microstock Keyword Strategy: Sell More Photos"
-description: "Discover how to build a profitable microstock keyword strategy and sell more photos. Learn to optimize metadata, target buyer intent, and use AI tools like Meita.ai."
-date: "2026-04-04T02:58:28+07:00"
+title: 'Good Microstock Keyword Strategy: Sell More Photos'
+description: >-
+  Discover how to build a profitable microstock keyword strategy and sell more
+  photos. Learn to optimize metadata, target buyer intent, and use AI tools like
+  Meita.ai.
+date: '2025-03-28T10:00:00Z'
 draft: false
 categories:
-- "what makes a good microstock keyword and sell more"
-
-
-author: "jake-miller"
-image: ""
+  - what makes a good microstock keyword and sell more
+author: jake-miller
+image: ''
 ---
 
 ![A photographer analyzing microstock keyword strategy data on a computer screen](images/mastering_microstock_keywords_the_ultimate_guide_to_selling_more_with_ai_127/managed_mastering_microstock_keywords_the_ultimate_guide_to_selling_more_with_ai_0.webp)
