@@ -4,7 +4,7 @@ description: >-
   Discover how to boost your stock photography sales by mastering seasonal
   microstock keywords. Learn how AI tools can predict trends and optimize your
   metadata.
-date: '2025-03-28T10:00:00Z'
+date: '2026-03-23T10:30:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

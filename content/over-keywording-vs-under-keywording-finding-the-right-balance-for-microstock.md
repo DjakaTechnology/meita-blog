@@ -3,7 +3,7 @@ title: 'Over Keywording Microstock: The Perfect Balance'
 description: >-
   Discover the dangers of over keywording microstock vs under keywording. Learn
   how to find the perfect keyword balance to boost your sales and visibility.
-date: '2025-03-28T10:00:00Z'
+date: '2026-03-16T14:15:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

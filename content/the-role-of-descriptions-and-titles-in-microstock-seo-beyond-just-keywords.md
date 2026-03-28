@@ -4,7 +4,7 @@ description: >-
   Discover how mastering microstock description SEO and title optimization can
   skyrocket your stock photo sales. Learn expert strategies to rank higher
   today.
-date: '2025-03-28T10:00:00Z'
+date: '2026-03-18T09:15:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

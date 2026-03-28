@@ -4,7 +4,7 @@ description: >-
   Learn how A/B testing microstock keywords can skyrocket your downloads.
   Discover data-driven keywording strategies to optimize your metadata and sell
   more.
-date: '2025-03-28T10:00:00Z'
+date: '2026-01-05T09:00:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

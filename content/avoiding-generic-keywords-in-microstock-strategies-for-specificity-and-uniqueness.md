@@ -4,7 +4,7 @@ description: >-
   Learn why you must avoid generic microstock keywords to increase your image
   sales. Discover actionable strategies to find specific microstock keywords
   today.
-date: '2025-03-28T10:00:00Z'
+date: '2026-01-26T11:15:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

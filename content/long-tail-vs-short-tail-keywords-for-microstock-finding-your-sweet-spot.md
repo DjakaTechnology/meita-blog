@@ -4,7 +4,7 @@ description: >-
   Discover the ultimate strategy for balancing long-tail vs short-tail
   microstock keywords. Learn how to optimize your portfolio metadata to rank
   higher and sell more.
-date: '2025-03-28T10:00:00Z'
+date: '2026-02-23T15:30:00Z'
 draft: false
 categories:
   - 'Long-Tail vs. Short-Tail Keywords for Microstock: Finding Your Sweet Spot'

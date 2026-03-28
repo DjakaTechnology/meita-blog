@@ -4,7 +4,7 @@ description: >-
   Discover how to boost your stock photography sales using AI predictive keyword
   research microstock strategies. Learn advanced AI keywording to outrank
   competitors.
-date: '2025-03-28T10:00:00Z'
+date: '2026-02-02T08:45:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

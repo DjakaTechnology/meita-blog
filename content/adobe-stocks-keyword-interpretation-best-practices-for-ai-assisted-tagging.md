@@ -4,7 +4,7 @@ description: >-
   Master Adobe Stock keyword interpretation with our comprehensive guide.
   Discover AI keywording best practices, optimize your top 10 tags, and sell
   more visual assets.
-date: '2025-03-28T10:00:00Z'
+date: '2026-01-19T14:00:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

@@ -4,7 +4,7 @@ description: >-
   Discover how keyword spamming microstock destroys your sales and account
   health. Learn why irrelevant microstock keywords lead to penalties and how AI
   fixes it.
-date: '2025-03-28T10:00:00Z'
+date: '2026-02-11T13:45:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

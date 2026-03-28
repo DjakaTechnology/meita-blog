@@ -4,7 +4,7 @@ description: >-
   Discover how to use AI competitor analysis in microstock to find profitable
   keywords, uncover content gaps, and outrank top-selling stock photography
   portfolios.
-date: '2025-03-28T10:00:00Z'
+date: '2026-02-16T10:00:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more

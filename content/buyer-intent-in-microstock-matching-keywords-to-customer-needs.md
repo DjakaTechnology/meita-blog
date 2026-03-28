@@ -4,7 +4,7 @@ description: >-
   Discover how to increase your image sales by mastering microstock buyer
   intent. Learn keyword research strategies to match your portfolio with
   customer needs.
-date: '2025-03-28T10:00:00Z'
+date: '2026-02-09T13:20:00Z'
 draft: false
 categories:
   - 'Buyer Intent in Microstock: Matching Keywords to Customer Needs'

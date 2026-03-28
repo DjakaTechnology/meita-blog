@@ -4,7 +4,7 @@ description: >-
   Adobe Stock has implemented new submission limits for contributors to maintain
   content quality and combat spam. Learn about the changes, community reactions,
   and implications for contributors.
-date: '2025-03-28T10:00:00Z'
+date: '2026-01-12T10:30:00Z'
 draft: false
 categories:
   - microstock platform changes

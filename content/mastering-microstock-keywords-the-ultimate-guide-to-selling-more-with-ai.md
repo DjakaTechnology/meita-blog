@@ -4,7 +4,7 @@ description: >-
   Discover how to build a profitable microstock keyword strategy and sell more
   photos. Learn to optimize metadata, target buyer intent, and use AI tools like
   Meita.ai.
-date: '2025-03-28T10:00:00Z'
+date: '2026-03-02T09:45:00Z'
 draft: false
 categories:
   - what makes a good microstock keyword and sell more
