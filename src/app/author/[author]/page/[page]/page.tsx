@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
   for (const a of authors) {
     const filtered = allPosts.filter((p) => p.authorId === a.id);
-    const totalPages = Math.ceil(filtered.length / POSTS_PER_PAGE);
+    const totalPages = Math.ceil(Math.max(1, filtered.length) / POSTS_PER_PAGE);
     for (let i = 2; i <= totalPages; i++) {
       params.push({ author: a.id, page: String(i) });
     }

@@ -6,12 +6,12 @@ import PostList from "@/components/PostList";
 
 export function generateStaticParams() {
   const allPosts = getAllPostMeta();
-  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
-  const params = Array.from({ length: Math.max(1, totalPages) }, (_, i) => ({
-    page: String(i + 1),
-  })).filter((p) => p.page !== "1");
+  const totalPages = Math.ceil(Math.max(1, allPosts.length) / POSTS_PER_PAGE);
 
-  return params.length === 0 ? [] : params;
+  // Only generate pagination routes for pages 2+
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    page: String(i + 2),
+  }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {

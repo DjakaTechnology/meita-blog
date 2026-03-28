@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
   for (const cat of categories) {
     const filtered = allPosts.filter((p) => p.categories.includes(cat));
-    const totalPages = Math.ceil(filtered.length / POSTS_PER_PAGE);
+    const totalPages = Math.ceil(Math.max(1, filtered.length) / POSTS_PER_PAGE);
     for (let i = 2; i <= totalPages; i++) {
       params.push({ category: encodeURIComponent(cat), page: String(i) });
     }
