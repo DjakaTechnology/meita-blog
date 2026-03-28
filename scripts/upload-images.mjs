@@ -57,7 +57,15 @@ function getAllImages() {
 }
 
 function loadManifest() {
-  try { return JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf-8")); } catch { return {}; }
+  try {
+    const content = fs.readFileSync(MANIFEST_PATH, "utf-8");
+    const manifest = JSON.parse(content);
+    console.log(`Loaded manifest with ${Object.keys(manifest).length} entries`);
+    return manifest;
+  } catch (err) {
+    console.warn(`Could not load manifest: ${err.message}`);
+    return {};
+  }
 }
 
 function saveManifest(manifest) {
@@ -91,7 +99,11 @@ async function main() {
     const existing = manifest[relativePath];
     validKeys.add(relativePath);
 
-    if (existing && existing.contentHash === contentHash) { skipped++; continue; }
+    if (existing && existing.contentHash === contentHash) {
+      skipped++;
+      console.log(`Skipped (cached): ${relativePath}`);
+      continue;
+    }
 
     if (!client) {
       manifest[relativePath] = { r2Url: `/blog/content-images/${relativePath.replace(/^images\//, '')}`, contentHash };
@@ -124,7 +136,7 @@ async function main() {
   }
 
   saveManifest(manifest);
-  console.log(`Done: ${uploaded} uploaded, ${skipped} skipped, ${removed} removed`);
+  console.log(`✓ Done: ${uploaded} uploaded, ${skipped} skipped, ${removed} removed (${Object.keys(manifest).length} total in manifest)`);
 }
 
 main().catch(console.error);
