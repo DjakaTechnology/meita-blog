@@ -206,5 +206,817 @@
   "images/adobe_stock_new_limit/blog-overwhelmed-photographer.webp": {
     "r2Url": "https://cdn.meita.ai/blog/images/adobe_stock_new_limit/3d76adda7c29-blog-overwhelmed-photographer.webp",
     "contentHash": "3d76adda7c29"
+  },
+  "images/2025_stock_photography_future_of_ai_metadata_519/managed_2025_stock_photography_future_of_ai_metadata_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/2025_stock_photography_future_of_ai_metadata_519/097249ba32f7-managed_2025_stock_photography_future_of_ai_metadata_0.webp",
+    "contentHash": "097249ba32f7"
+  },
+  "images/2025_stock_photography_future_of_ai_metadata_519/managed_2025_stock_photography_future_of_ai_metadata_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/2025_stock_photography_future_of_ai_metadata_519/1046dfbfb64c-managed_2025_stock_photography_future_of_ai_metadata_1.webp",
+    "contentHash": "1046dfbfb64c"
+  },
+  "images/2025_stock_photography_future_of_ai_metadata_519/managed_2025_stock_photography_future_of_ai_metadata_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/2025_stock_photography_future_of_ai_metadata_519/978bdb2cf591-managed_2025_stock_photography_future_of_ai_metadata_2.webp",
+    "contentHash": "978bdb2cf591"
+  },
+  "images/2025_stock_photography_future_of_ai_metadata_519/managed_2025_stock_photography_future_of_ai_metadata_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/2025_stock_photography_future_of_ai_metadata_519/1039836f4c0e-managed_2025_stock_photography_future_of_ai_metadata_3.webp",
+    "contentHash": "1039836f4c0e"
+  },
+  "images/ai_photo_analysis_future_of_real_estate_listings_516/managed_ai_photo_analysis_future_of_real_estate_listings_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_photo_analysis_future_of_real_estate_listings_516/c0f3b1f8c381-managed_ai_photo_analysis_future_of_real_estate_listings_0.webp",
+    "contentHash": "c0f3b1f8c381"
+  },
+  "images/ai_photo_analysis_future_of_real_estate_listings_516/managed_ai_photo_analysis_future_of_real_estate_listings_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_photo_analysis_future_of_real_estate_listings_516/b0053b1798a1-managed_ai_photo_analysis_future_of_real_estate_listings_1.webp",
+    "contentHash": "b0053b1798a1"
+  },
+  "images/ai_photo_analysis_future_of_real_estate_listings_516/managed_ai_photo_analysis_future_of_real_estate_listings_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_photo_analysis_future_of_real_estate_listings_516/b27b5eb16612-managed_ai_photo_analysis_future_of_real_estate_listings_2.webp",
+    "contentHash": "b27b5eb16612"
+  },
+  "images/ai_photo_analysis_future_of_real_estate_listings_516/managed_ai_photo_analysis_future_of_real_estate_listings_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_photo_analysis_future_of_real_estate_listings_516/40e28b5f398b-managed_ai_photo_analysis_future_of_real_estate_listings_3.webp",
+    "contentHash": "40e28b5f398b"
+  },
+  "images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/managed_ai_powered_metadata_for_microlancers_future_proof_strategies_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/78772a3826f0-managed_ai_powered_metadata_for_microlancers_future_proof_strategies_0.webp",
+    "contentHash": "78772a3826f0"
+  },
+  "images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/managed_ai_powered_metadata_for_microlancers_future_proof_strategies_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/0c2e04441b7d-managed_ai_powered_metadata_for_microlancers_future_proof_strategies_1.webp",
+    "contentHash": "0c2e04441b7d"
+  },
+  "images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/managed_ai_powered_metadata_for_microlancers_future_proof_strategies_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/5fecd3eaeaef-managed_ai_powered_metadata_for_microlancers_future_proof_strategies_2.webp",
+    "contentHash": "5fecd3eaeaef"
+  },
+  "images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/managed_ai_powered_metadata_for_microlancers_future_proof_strategies_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_powered_metadata_for_microlancers_future_proof_strategies_533/0fcc0e6ecf23-managed_ai_powered_metadata_for_microlancers_future_proof_strategies_3.webp",
+    "contentHash": "0fcc0e6ecf23"
+  },
+  "images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/cce4bef28bf0-managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_0.webp",
+    "contentHash": "cce4bef28bf0"
+  },
+  "images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/4893c1e1e065-managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_1.webp",
+    "contentHash": "4893c1e1e065"
+  },
+  "images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/71f1487834ec-managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_2.webp",
+    "contentHash": "71f1487834ec"
+  },
+  "images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/ai_vs_manual_catalog_1500_photos_in_90_minutes_503/f32d6728c3dd-managed_ai_vs_manual_catalog_1500_photos_in_90_minutes_3.webp",
+    "contentHash": "f32d6728c3dd"
+  },
+  "images/batch_process_photos_save_10_hours_monthly_with_ai_546/managed_batch_process_photos_save_10_hours_monthly_with_ai_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/batch_process_photos_save_10_hours_monthly_with_ai_546/899cd401d3c5-managed_batch_process_photos_save_10_hours_monthly_with_ai_0.webp",
+    "contentHash": "899cd401d3c5"
+  },
+  "images/batch_process_photos_save_10_hours_monthly_with_ai_546/managed_batch_process_photos_save_10_hours_monthly_with_ai_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/batch_process_photos_save_10_hours_monthly_with_ai_546/c4bc16292650-managed_batch_process_photos_save_10_hours_monthly_with_ai_1.webp",
+    "contentHash": "c4bc16292650"
+  },
+  "images/batch_process_photos_save_10_hours_monthly_with_ai_546/managed_batch_process_photos_save_10_hours_monthly_with_ai_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/batch_process_photos_save_10_hours_monthly_with_ai_546/c25dd589926c-managed_batch_process_photos_save_10_hours_monthly_with_ai_2.webp",
+    "contentHash": "c25dd589926c"
+  },
+  "images/batch_process_photos_save_10_hours_monthly_with_ai_546/managed_batch_process_photos_save_10_hours_monthly_with_ai_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/batch_process_photos_save_10_hours_monthly_with_ai_546/7c2cb8f1eed0-managed_batch_process_photos_save_10_hours_monthly_with_ai_3.webp",
+    "contentHash": "7c2cb8f1eed0"
+  },
+  "images/beginners_guide_automate_captioning_for_photo_libraries_514/managed_beginners_guide_automate_captioning_for_photo_libraries_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/beginners_guide_automate_captioning_for_photo_libraries_514/66d156f45c1c-managed_beginners_guide_automate_captioning_for_photo_libraries_0.webp",
+    "contentHash": "66d156f45c1c"
+  },
+  "images/beginners_guide_automate_captioning_for_photo_libraries_514/managed_beginners_guide_automate_captioning_for_photo_libraries_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/beginners_guide_automate_captioning_for_photo_libraries_514/f0c7108de693-managed_beginners_guide_automate_captioning_for_photo_libraries_1.webp",
+    "contentHash": "f0c7108de693"
+  },
+  "images/beginners_guide_automate_captioning_for_photo_libraries_514/managed_beginners_guide_automate_captioning_for_photo_libraries_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/beginners_guide_automate_captioning_for_photo_libraries_514/b2f8caf01da1-managed_beginners_guide_automate_captioning_for_photo_libraries_2.webp",
+    "contentHash": "b2f8caf01da1"
+  },
+  "images/beginners_guide_automate_captioning_for_photo_libraries_514/managed_beginners_guide_automate_captioning_for_photo_libraries_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/beginners_guide_automate_captioning_for_photo_libraries_514/eaba8d5583fd-managed_beginners_guide_automate_captioning_for_photo_libraries_3.webp",
+    "contentHash": "eaba8d5583fd"
+  },
+  "images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/managed_boost_event_photography_roi_ai_tagging_for_faster_sales_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/e5069e028f84-managed_boost_event_photography_roi_ai_tagging_for_faster_sales_0.webp",
+    "contentHash": "e5069e028f84"
+  },
+  "images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/managed_boost_event_photography_roi_ai_tagging_for_faster_sales_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/c9fcf6d62ba8-managed_boost_event_photography_roi_ai_tagging_for_faster_sales_1.webp",
+    "contentHash": "c9fcf6d62ba8"
+  },
+  "images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/managed_boost_event_photography_roi_ai_tagging_for_faster_sales_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/74a23a847473-managed_boost_event_photography_roi_ai_tagging_for_faster_sales_2.webp",
+    "contentHash": "74a23a847473"
+  },
+  "images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/managed_boost_event_photography_roi_ai_tagging_for_faster_sales_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_photography_roi_ai_tagging_for_faster_sales_545/a9214eae28c1-managed_boost_event_photography_roi_ai_tagging_for_faster_sales_3.webp",
+    "contentHash": "a9214eae28c1"
+  },
+  "images/boost_event_roi_ai_tagging_for_concert_photos_511/managed_boost_event_roi_ai_tagging_for_concert_photos_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_roi_ai_tagging_for_concert_photos_511/5e83b9fe688f-managed_boost_event_roi_ai_tagging_for_concert_photos_0.webp",
+    "contentHash": "5e83b9fe688f"
+  },
+  "images/boost_event_roi_ai_tagging_for_concert_photos_511/managed_boost_event_roi_ai_tagging_for_concert_photos_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_roi_ai_tagging_for_concert_photos_511/37f146bd4320-managed_boost_event_roi_ai_tagging_for_concert_photos_1.webp",
+    "contentHash": "37f146bd4320"
+  },
+  "images/boost_event_roi_ai_tagging_for_concert_photos_511/managed_boost_event_roi_ai_tagging_for_concert_photos_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_roi_ai_tagging_for_concert_photos_511/b86d02534f84-managed_boost_event_roi_ai_tagging_for_concert_photos_2.webp",
+    "contentHash": "b86d02534f84"
+  },
+  "images/boost_event_roi_ai_tagging_for_concert_photos_511/managed_boost_event_roi_ai_tagging_for_concert_photos_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_event_roi_ai_tagging_for_concert_photos_511/3254c3fd7d46-managed_boost_event_roi_ai_tagging_for_concert_photos_3.webp",
+    "contentHash": "3254c3fd7d46"
+  },
+  "images/boost_image_seo_automate_metadata_via_phototag_api_510/managed_boost_image_seo_automate_metadata_via_phototag_api_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_automate_metadata_via_phototag_api_510/f42ad0338fda-managed_boost_image_seo_automate_metadata_via_phototag_api_0.webp",
+    "contentHash": "f42ad0338fda"
+  },
+  "images/boost_image_seo_automate_metadata_via_phototag_api_510/managed_boost_image_seo_automate_metadata_via_phototag_api_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_automate_metadata_via_phototag_api_510/d00377824fc0-managed_boost_image_seo_automate_metadata_via_phototag_api_1.webp",
+    "contentHash": "d00377824fc0"
+  },
+  "images/boost_image_seo_automate_metadata_via_phototag_api_510/managed_boost_image_seo_automate_metadata_via_phototag_api_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_automate_metadata_via_phototag_api_510/7d6d44b269ce-managed_boost_image_seo_automate_metadata_via_phototag_api_2.webp",
+    "contentHash": "7d6d44b269ce"
+  },
+  "images/boost_image_seo_automate_metadata_via_phototag_api_510/managed_boost_image_seo_automate_metadata_via_phototag_api_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_automate_metadata_via_phototag_api_510/7536532430f8-managed_boost_image_seo_automate_metadata_via_phototag_api_3.webp",
+    "contentHash": "7536532430f8"
+  },
+  "images/boost_image_seo_xmp_keywording_for_new_photographers_537/managed_boost_image_seo_xmp_keywording_for_new_photographers_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_xmp_keywording_for_new_photographers_537/3dcfc862b1ab-managed_boost_image_seo_xmp_keywording_for_new_photographers_0.webp",
+    "contentHash": "3dcfc862b1ab"
+  },
+  "images/boost_image_seo_xmp_keywording_for_new_photographers_537/managed_boost_image_seo_xmp_keywording_for_new_photographers_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_xmp_keywording_for_new_photographers_537/73eb615fd1f8-managed_boost_image_seo_xmp_keywording_for_new_photographers_1.webp",
+    "contentHash": "73eb615fd1f8"
+  },
+  "images/boost_image_seo_xmp_keywording_for_new_photographers_537/managed_boost_image_seo_xmp_keywording_for_new_photographers_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_xmp_keywording_for_new_photographers_537/91cc565d3f61-managed_boost_image_seo_xmp_keywording_for_new_photographers_2.webp",
+    "contentHash": "91cc565d3f61"
+  },
+  "images/boost_image_seo_xmp_keywording_for_new_photographers_537/managed_boost_image_seo_xmp_keywording_for_new_photographers_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_image_seo_xmp_keywording_for_new_photographers_537/4df09d41e39e-managed_boost_image_seo_xmp_keywording_for_new_photographers_3.webp",
+    "contentHash": "4df09d41e39e"
+  },
+  "images/boost_microstock_sales_60_save_time_with_ai_tagging_534/managed_boost_microstock_sales_60_save_time_with_ai_tagging_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_60_save_time_with_ai_tagging_534/bf8a2537cbe1-managed_boost_microstock_sales_60_save_time_with_ai_tagging_0.webp",
+    "contentHash": "bf8a2537cbe1"
+  },
+  "images/boost_microstock_sales_60_save_time_with_ai_tagging_534/managed_boost_microstock_sales_60_save_time_with_ai_tagging_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_60_save_time_with_ai_tagging_534/e4a578aafcfe-managed_boost_microstock_sales_60_save_time_with_ai_tagging_1.webp",
+    "contentHash": "e4a578aafcfe"
+  },
+  "images/boost_microstock_sales_60_save_time_with_ai_tagging_534/managed_boost_microstock_sales_60_save_time_with_ai_tagging_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_60_save_time_with_ai_tagging_534/1175b62f0bec-managed_boost_microstock_sales_60_save_time_with_ai_tagging_2.webp",
+    "contentHash": "1175b62f0bec"
+  },
+  "images/boost_microstock_sales_60_save_time_with_ai_tagging_534/managed_boost_microstock_sales_60_save_time_with_ai_tagging_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_60_save_time_with_ai_tagging_534/27b7d3ac5313-managed_boost_microstock_sales_60_save_time_with_ai_tagging_3.webp",
+    "contentHash": "27b7d3ac5313"
+  },
+  "images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/a44961abd363-managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_0.webp",
+    "contentHash": "a44961abd363"
+  },
+  "images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/5e1a16867dc5-managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_1.webp",
+    "contentHash": "5e1a16867dc5"
+  },
+  "images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/957ae57c9d77-managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_2.webp",
+    "contentHash": "957ae57c9d77"
+  },
+  "images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_batch_keywording_in_30_mins_507/bee9d654378b-managed_boost_microstock_sales_ai_batch_keywording_in_30_mins_3.webp",
+    "contentHash": "bee9d654378b"
+  },
+  "images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/0a3e8a3813da-managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_0.webp",
+    "contentHash": "0a3e8a3813da"
+  },
+  "images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/6dca17f60a57-managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_1.webp",
+    "contentHash": "6dca17f60a57"
+  },
+  "images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/b772d17e9e6d-managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_2.webp",
+    "contentHash": "b772d17e9e6d"
+  },
+  "images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_tagging_for_real_estate_photos_529/ab39ba5fc175-managed_boost_microstock_sales_ai_tagging_for_real_estate_photos_3.webp",
+    "contentHash": "ab39ba5fc175"
+  },
+  "images/boost_microstock_sales_ai_vs_manual_keywording_540/managed_boost_microstock_sales_ai_vs_manual_keywording_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_vs_manual_keywording_540/8e8d39bc6895-managed_boost_microstock_sales_ai_vs_manual_keywording_0.webp",
+    "contentHash": "8e8d39bc6895"
+  },
+  "images/boost_microstock_sales_ai_vs_manual_keywording_540/managed_boost_microstock_sales_ai_vs_manual_keywording_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_vs_manual_keywording_540/0174de8993bb-managed_boost_microstock_sales_ai_vs_manual_keywording_1.webp",
+    "contentHash": "0174de8993bb"
+  },
+  "images/boost_microstock_sales_ai_vs_manual_keywording_540/managed_boost_microstock_sales_ai_vs_manual_keywording_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_vs_manual_keywording_540/56b7376d68ef-managed_boost_microstock_sales_ai_vs_manual_keywording_2.webp",
+    "contentHash": "56b7376d68ef"
+  },
+  "images/boost_microstock_sales_ai_vs_manual_keywording_540/managed_boost_microstock_sales_ai_vs_manual_keywording_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_ai_vs_manual_keywording_540/c59dda1c46c6-managed_boost_microstock_sales_ai_vs_manual_keywording_3.webp",
+    "contentHash": "c59dda1c46c6"
+  },
+  "images/boost_microstock_sales_evaluating_ai_metadata_tools_522/managed_boost_microstock_sales_evaluating_ai_metadata_tools_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_evaluating_ai_metadata_tools_522/5e2061a89ee5-managed_boost_microstock_sales_evaluating_ai_metadata_tools_0.webp",
+    "contentHash": "5e2061a89ee5"
+  },
+  "images/boost_microstock_sales_evaluating_ai_metadata_tools_522/managed_boost_microstock_sales_evaluating_ai_metadata_tools_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_evaluating_ai_metadata_tools_522/81d8042ba2d4-managed_boost_microstock_sales_evaluating_ai_metadata_tools_1.webp",
+    "contentHash": "81d8042ba2d4"
+  },
+  "images/boost_microstock_sales_evaluating_ai_metadata_tools_522/managed_boost_microstock_sales_evaluating_ai_metadata_tools_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_evaluating_ai_metadata_tools_522/68c607c4c055-managed_boost_microstock_sales_evaluating_ai_metadata_tools_2.webp",
+    "contentHash": "68c607c4c055"
+  },
+  "images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/managed_boost_microstock_sales_with_bulk_metadata_tags_ai_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/7f80976a9acd-managed_boost_microstock_sales_with_bulk_metadata_tags_ai_0.webp",
+    "contentHash": "7f80976a9acd"
+  },
+  "images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/managed_boost_microstock_sales_with_bulk_metadata_tags_ai_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/36ba2781e989-managed_boost_microstock_sales_with_bulk_metadata_tags_ai_1.webp",
+    "contentHash": "36ba2781e989"
+  },
+  "images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/managed_boost_microstock_sales_with_bulk_metadata_tags_ai_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/f796776c4594-managed_boost_microstock_sales_with_bulk_metadata_tags_ai_2.webp",
+    "contentHash": "f796776c4594"
+  },
+  "images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/managed_boost_microstock_sales_with_bulk_metadata_tags_ai_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_microstock_sales_with_bulk_metadata_tags_ai_536/802102c20921-managed_boost_microstock_sales_with_bulk_metadata_tags_ai_3.webp",
+    "contentHash": "802102c20921"
+  },
+  "images/boost_stock_photo_sales_68_with_ai_keywording_case_study_523/managed_boost_stock_photo_sales_68_with_ai_keywording_case_study_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_68_with_ai_keywording_case_study_523/794d5acf197d-managed_boost_stock_photo_sales_68_with_ai_keywording_case_study_0.webp",
+    "contentHash": "794d5acf197d"
+  },
+  "images/boost_stock_photo_sales_68_with_ai_keywording_case_study_523/managed_boost_stock_photo_sales_68_with_ai_keywording_case_study_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_68_with_ai_keywording_case_study_523/1ac1871e8c3d-managed_boost_stock_photo_sales_68_with_ai_keywording_case_study_1.webp",
+    "contentHash": "1ac1871e8c3d"
+  },
+  "images/boost_stock_photo_sales_68_with_ai_keywording_case_study_523/managed_boost_stock_photo_sales_68_with_ai_keywording_case_study_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_68_with_ai_keywording_case_study_523/986a02b0023f-managed_boost_stock_photo_sales_68_with_ai_keywording_case_study_2.webp",
+    "contentHash": "986a02b0023f"
+  },
+  "images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/f80f6df71975-managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_0.webp",
+    "contentHash": "f80f6df71975"
+  },
+  "images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/1f721e89a304-managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_1.webp",
+    "contentHash": "1f721e89a304"
+  },
+  "images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/e8f09c998d50-managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_2.webp",
+    "contentHash": "e8f09c998d50"
+  },
+  "images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_tagging_for_new_contributors_542/5facd429b7bb-managed_boost_stock_photo_sales_ai_tagging_for_new_contributors_3.webp",
+    "contentHash": "5facd429b7bb"
+  },
+  "images/boost_stock_photo_sales_ai_vs_manual_keywording_549/managed_boost_stock_photo_sales_ai_vs_manual_keywording_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_vs_manual_keywording_549/336b90f7da11-managed_boost_stock_photo_sales_ai_vs_manual_keywording_0.webp",
+    "contentHash": "336b90f7da11"
+  },
+  "images/boost_stock_photo_sales_ai_vs_manual_keywording_549/managed_boost_stock_photo_sales_ai_vs_manual_keywording_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_vs_manual_keywording_549/b2a340b5a002-managed_boost_stock_photo_sales_ai_vs_manual_keywording_1.webp",
+    "contentHash": "b2a340b5a002"
+  },
+  "images/boost_stock_photo_sales_ai_vs_manual_keywording_549/managed_boost_stock_photo_sales_ai_vs_manual_keywording_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_vs_manual_keywording_549/78f7df62fbb8-managed_boost_stock_photo_sales_ai_vs_manual_keywording_2.webp",
+    "contentHash": "78f7df62fbb8"
+  },
+  "images/boost_stock_photo_sales_ai_vs_manual_keywording_549/managed_boost_stock_photo_sales_ai_vs_manual_keywording_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_vs_manual_keywording_549/92135d708dc4-managed_boost_stock_photo_sales_ai_vs_manual_keywording_3.webp",
+    "contentHash": "92135d708dc4"
+  },
+  "images/boost_stock_photo_sales_ai_vs_manual_keywording_549/managed_boost_stock_photo_sales_ai_vs_manual_keywording_4.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_photo_sales_ai_vs_manual_keywording_549/55a554864a6c-managed_boost_stock_photo_sales_ai_vs_manual_keywording_4.webp",
+    "contentHash": "55a554864a6c"
+  },
+  "images/boost_stock_sales_30_ai_photo_tagging_success_story_543/managed_boost_stock_sales_30_ai_photo_tagging_success_story_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_30_ai_photo_tagging_success_story_543/ebe391cd6e05-managed_boost_stock_sales_30_ai_photo_tagging_success_story_0.webp",
+    "contentHash": "ebe391cd6e05"
+  },
+  "images/boost_stock_sales_30_ai_photo_tagging_success_story_543/managed_boost_stock_sales_30_ai_photo_tagging_success_story_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_30_ai_photo_tagging_success_story_543/a809acbd53f1-managed_boost_stock_sales_30_ai_photo_tagging_success_story_1.webp",
+    "contentHash": "a809acbd53f1"
+  },
+  "images/boost_stock_sales_30_ai_photo_tagging_success_story_543/managed_boost_stock_sales_30_ai_photo_tagging_success_story_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_30_ai_photo_tagging_success_story_543/7fb9d4ab23c0-managed_boost_stock_sales_30_ai_photo_tagging_success_story_2.webp",
+    "contentHash": "7fb9d4ab23c0"
+  },
+  "images/boost_stock_sales_30_ai_photo_tagging_success_story_543/managed_boost_stock_sales_30_ai_photo_tagging_success_story_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_30_ai_photo_tagging_success_story_543/e86bda9d5333-managed_boost_stock_sales_30_ai_photo_tagging_success_story_3.webp",
+    "contentHash": "e86bda9d5333"
+  },
+  "images/boost_stock_sales_advanced_ai_metadata_strategies_508/managed_boost_stock_sales_advanced_ai_metadata_strategies_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_advanced_ai_metadata_strategies_508/8b6af1900836-managed_boost_stock_sales_advanced_ai_metadata_strategies_0.webp",
+    "contentHash": "8b6af1900836"
+  },
+  "images/boost_stock_sales_advanced_ai_metadata_strategies_508/managed_boost_stock_sales_advanced_ai_metadata_strategies_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_advanced_ai_metadata_strategies_508/5ebcf6907838-managed_boost_stock_sales_advanced_ai_metadata_strategies_1.webp",
+    "contentHash": "5ebcf6907838"
+  },
+  "images/boost_stock_sales_advanced_ai_metadata_strategies_508/managed_boost_stock_sales_advanced_ai_metadata_strategies_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_advanced_ai_metadata_strategies_508/f60c250e7ac9-managed_boost_stock_sales_advanced_ai_metadata_strategies_2.webp",
+    "contentHash": "f60c250e7ac9"
+  },
+  "images/boost_stock_sales_advanced_ai_metadata_strategies_508/managed_boost_stock_sales_advanced_ai_metadata_strategies_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_advanced_ai_metadata_strategies_508/5333ee4eec25-managed_boost_stock_sales_advanced_ai_metadata_strategies_3.webp",
+    "contentHash": "5333ee4eec25"
+  },
+  "images/boost_stock_sales_ai_photo_tagging_case_study_539/managed_boost_stock_sales_ai_photo_tagging_case_study_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_ai_photo_tagging_case_study_539/6d57fb2644aa-managed_boost_stock_sales_ai_photo_tagging_case_study_0.webp",
+    "contentHash": "6d57fb2644aa"
+  },
+  "images/boost_stock_sales_ai_photo_tagging_case_study_539/managed_boost_stock_sales_ai_photo_tagging_case_study_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_ai_photo_tagging_case_study_539/ac14341b04a2-managed_boost_stock_sales_ai_photo_tagging_case_study_1.webp",
+    "contentHash": "ac14341b04a2"
+  },
+  "images/boost_stock_sales_ai_photo_tagging_case_study_539/managed_boost_stock_sales_ai_photo_tagging_case_study_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_ai_photo_tagging_case_study_539/b1a85995edbf-managed_boost_stock_sales_ai_photo_tagging_case_study_2.webp",
+    "contentHash": "b1a85995edbf"
+  },
+  "images/boost_stock_sales_ai_photo_tagging_case_study_539/managed_boost_stock_sales_ai_photo_tagging_case_study_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_ai_photo_tagging_case_study_539/b323fee62dc2-managed_boost_stock_sales_ai_photo_tagging_case_study_3.webp",
+    "contentHash": "b323fee62dc2"
+  },
+  "images/boost_stock_sales_evaluate_image_description_generators_538/managed_boost_stock_sales_evaluate_image_description_generators_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_evaluate_image_description_generators_538/f85191285dcf-managed_boost_stock_sales_evaluate_image_description_generators_0.webp",
+    "contentHash": "f85191285dcf"
+  },
+  "images/boost_stock_sales_evaluate_image_description_generators_538/managed_boost_stock_sales_evaluate_image_description_generators_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_evaluate_image_description_generators_538/13f01e35c884-managed_boost_stock_sales_evaluate_image_description_generators_1.webp",
+    "contentHash": "13f01e35c884"
+  },
+  "images/boost_stock_sales_evaluate_image_description_generators_538/managed_boost_stock_sales_evaluate_image_description_generators_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/boost_stock_sales_evaluate_image_description_generators_538/92a33e36ea77-managed_boost_stock_sales_evaluate_image_description_generators_2.webp",
+    "contentHash": "92a33e36ea77"
+  },
+  "images/bulk_image_processing_save_hours_in_photo_cataloging_505/managed_bulk_image_processing_save_hours_in_photo_cataloging_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/bulk_image_processing_save_hours_in_photo_cataloging_505/c1f34c63d0b6-managed_bulk_image_processing_save_hours_in_photo_cataloging_0.webp",
+    "contentHash": "c1f34c63d0b6"
+  },
+  "images/bulk_image_processing_save_hours_in_photo_cataloging_505/managed_bulk_image_processing_save_hours_in_photo_cataloging_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/bulk_image_processing_save_hours_in_photo_cataloging_505/252ddd3a2592-managed_bulk_image_processing_save_hours_in_photo_cataloging_1.webp",
+    "contentHash": "252ddd3a2592"
+  },
+  "images/bulk_image_processing_save_hours_in_photo_cataloging_505/managed_bulk_image_processing_save_hours_in_photo_cataloging_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/bulk_image_processing_save_hours_in_photo_cataloging_505/e7514d61f368-managed_bulk_image_processing_save_hours_in_photo_cataloging_2.webp",
+    "contentHash": "e7514d61f368"
+  },
+  "images/bulk_image_processing_save_hours_in_photo_cataloging_505/managed_bulk_image_processing_save_hours_in_photo_cataloging_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/bulk_image_processing_save_hours_in_photo_cataloging_505/9f148300e2b9-managed_bulk_image_processing_save_hours_in_photo_cataloging_3.webp",
+    "contentHash": "9f148300e2b9"
+  },
+  "images/cut_costs_50_ai_image_tagging_for_new_photographers_541/managed_cut_costs_50_ai_image_tagging_for_new_photographers_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/cut_costs_50_ai_image_tagging_for_new_photographers_541/93a29584fa0a-managed_cut_costs_50_ai_image_tagging_for_new_photographers_0.webp",
+    "contentHash": "93a29584fa0a"
+  },
+  "images/cut_costs_50_ai_image_tagging_for_new_photographers_541/managed_cut_costs_50_ai_image_tagging_for_new_photographers_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/cut_costs_50_ai_image_tagging_for_new_photographers_541/d2552ed2b0f6-managed_cut_costs_50_ai_image_tagging_for_new_photographers_1.webp",
+    "contentHash": "d2552ed2b0f6"
+  },
+  "images/cut_costs_50_ai_image_tagging_for_new_photographers_541/managed_cut_costs_50_ai_image_tagging_for_new_photographers_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/cut_costs_50_ai_image_tagging_for_new_photographers_541/8ed715747883-managed_cut_costs_50_ai_image_tagging_for_new_photographers_2.webp",
+    "contentHash": "8ed715747883"
+  },
+  "images/cut_costs_50_ai_image_tagging_for_new_photographers_541/managed_cut_costs_50_ai_image_tagging_for_new_photographers_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/cut_costs_50_ai_image_tagging_for_new_photographers_541/3a6f8591305d-managed_cut_costs_50_ai_image_tagging_for_new_photographers_3.webp",
+    "contentHash": "3a6f8591305d"
+  },
+  "images/elevate_event_photography_ai_keywording_in_trends_502/managed_elevate_event_photography_ai_keywording_in_trends_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/elevate_event_photography_ai_keywording_in_trends_502/e793af9ad4a1-managed_elevate_event_photography_ai_keywording_in_trends_0.webp",
+    "contentHash": "e793af9ad4a1"
+  },
+  "images/elevate_event_photography_ai_keywording_in_trends_502/managed_elevate_event_photography_ai_keywording_in_trends_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/elevate_event_photography_ai_keywording_in_trends_502/81f8e01f2ce6-managed_elevate_event_photography_ai_keywording_in_trends_1.webp",
+    "contentHash": "81f8e01f2ce6"
+  },
+  "images/elevate_event_photography_ai_keywording_in_trends_502/managed_elevate_event_photography_ai_keywording_in_trends_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/elevate_event_photography_ai_keywording_in_trends_502/1bc736327847-managed_elevate_event_photography_ai_keywording_in_trends_2.webp",
+    "contentHash": "1bc736327847"
+  },
+  "images/elevate_event_photography_ai_keywording_in_trends_502/managed_elevate_event_photography_ai_keywording_in_trends_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/elevate_event_photography_ai_keywording_in_trends_502/b8543e3107a4-managed_elevate_event_photography_ai_keywording_in_trends_3.webp",
+    "contentHash": "b8543e3107a4"
+  },
+  "images/event_photographers_boost_microstock_sales_with_ai_tags_525/managed_event_photographers_boost_microstock_sales_with_ai_tags_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_boost_microstock_sales_with_ai_tags_525/c09ca285dcff-managed_event_photographers_boost_microstock_sales_with_ai_tags_0.webp",
+    "contentHash": "c09ca285dcff"
+  },
+  "images/event_photographers_boost_microstock_sales_with_ai_tags_525/managed_event_photographers_boost_microstock_sales_with_ai_tags_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_boost_microstock_sales_with_ai_tags_525/ead2cf214ffa-managed_event_photographers_boost_microstock_sales_with_ai_tags_1.webp",
+    "contentHash": "ead2cf214ffa"
+  },
+  "images/event_photographers_boost_microstock_sales_with_ai_tags_525/managed_event_photographers_boost_microstock_sales_with_ai_tags_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_boost_microstock_sales_with_ai_tags_525/07f5eb15481d-managed_event_photographers_boost_microstock_sales_with_ai_tags_2.webp",
+    "contentHash": "07f5eb15481d"
+  },
+  "images/event_photographers_boost_microstock_sales_with_ai_tags_525/managed_event_photographers_boost_microstock_sales_with_ai_tags_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_boost_microstock_sales_with_ai_tags_525/cb08916df5b8-managed_event_photographers_boost_microstock_sales_with_ai_tags_3.webp",
+    "contentHash": "cb08916df5b8"
+  },
+  "images/event_photographers_save_10_hours_with_ai_tagging_547/managed_event_photographers_save_10_hours_with_ai_tagging_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_save_10_hours_with_ai_tagging_547/bdd48300a9bb-managed_event_photographers_save_10_hours_with_ai_tagging_0.webp",
+    "contentHash": "bdd48300a9bb"
+  },
+  "images/event_photographers_save_10_hours_with_ai_tagging_547/managed_event_photographers_save_10_hours_with_ai_tagging_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_save_10_hours_with_ai_tagging_547/7a5910fc7a4b-managed_event_photographers_save_10_hours_with_ai_tagging_1.webp",
+    "contentHash": "7a5910fc7a4b"
+  },
+  "images/event_photographers_save_10_hours_with_ai_tagging_547/managed_event_photographers_save_10_hours_with_ai_tagging_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_save_10_hours_with_ai_tagging_547/7e241bf5c198-managed_event_photographers_save_10_hours_with_ai_tagging_2.webp",
+    "contentHash": "7e241bf5c198"
+  },
+  "images/event_photographers_save_10_hours_with_ai_tagging_547/managed_event_photographers_save_10_hours_with_ai_tagging_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/event_photographers_save_10_hours_with_ai_tagging_547/391fdd95aeaf-managed_event_photographers_save_10_hours_with_ai_tagging_3.webp",
+    "contentHash": "391fdd95aeaf"
+  },
+  "images/future_of_image_seo_ai_tagging_for_new_photographers_524/managed_future_of_image_seo_ai_tagging_for_new_photographers_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_image_seo_ai_tagging_for_new_photographers_524/60aeed0f68fd-managed_future_of_image_seo_ai_tagging_for_new_photographers_0.webp",
+    "contentHash": "60aeed0f68fd"
+  },
+  "images/future_of_image_seo_ai_tagging_for_new_photographers_524/managed_future_of_image_seo_ai_tagging_for_new_photographers_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_image_seo_ai_tagging_for_new_photographers_524/e7041ff86c65-managed_future_of_image_seo_ai_tagging_for_new_photographers_1.webp",
+    "contentHash": "e7041ff86c65"
+  },
+  "images/future_of_image_seo_ai_tagging_for_new_photographers_524/managed_future_of_image_seo_ai_tagging_for_new_photographers_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_image_seo_ai_tagging_for_new_photographers_524/2bf9e029aa1b-managed_future_of_image_seo_ai_tagging_for_new_photographers_2.webp",
+    "contentHash": "2bf9e029aa1b"
+  },
+  "images/future_of_image_seo_ai_tagging_for_new_photographers_524/managed_future_of_image_seo_ai_tagging_for_new_photographers_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_image_seo_ai_tagging_for_new_photographers_524/e9d35cb63560-managed_future_of_image_seo_ai_tagging_for_new_photographers_3.webp",
+    "contentHash": "e9d35cb63560"
+  },
+  "images/future_of_seo_ai_metadata_for_bulk_image_processing_521/managed_future_of_seo_ai_metadata_for_bulk_image_processing_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_seo_ai_metadata_for_bulk_image_processing_521/0ceffd8b6686-managed_future_of_seo_ai_metadata_for_bulk_image_processing_0.webp",
+    "contentHash": "0ceffd8b6686"
+  },
+  "images/future_of_seo_ai_metadata_for_bulk_image_processing_521/managed_future_of_seo_ai_metadata_for_bulk_image_processing_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_seo_ai_metadata_for_bulk_image_processing_521/c2b79cd5eb55-managed_future_of_seo_ai_metadata_for_bulk_image_processing_1.webp",
+    "contentHash": "c2b79cd5eb55"
+  },
+  "images/future_of_seo_ai_metadata_for_bulk_image_processing_521/managed_future_of_seo_ai_metadata_for_bulk_image_processing_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_seo_ai_metadata_for_bulk_image_processing_521/b5aa5c4d8f8e-managed_future_of_seo_ai_metadata_for_bulk_image_processing_2.webp",
+    "contentHash": "b5aa5c4d8f8e"
+  },
+  "images/future_of_seo_ai_metadata_for_bulk_image_processing_521/managed_future_of_seo_ai_metadata_for_bulk_image_processing_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/future_of_seo_ai_metadata_for_bulk_image_processing_521/b36c437b70b1-managed_future_of_seo_ai_metadata_for_bulk_image_processing_3.webp",
+    "contentHash": "b36c437b70b1"
+  },
+  "images/jake-miller.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/images/c04e53ad2d81-jake-miller.webp",
+    "contentHash": "c04e53ad2d81"
+  },
+  "images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/managed_level_up_stock_photos_ai_workflow_boosts_roi_65_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/97f84855806d-managed_level_up_stock_photos_ai_workflow_boosts_roi_65_0.webp",
+    "contentHash": "97f84855806d"
+  },
+  "images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/managed_level_up_stock_photos_ai_workflow_boosts_roi_65_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/b425d7540b8d-managed_level_up_stock_photos_ai_workflow_boosts_roi_65_1.webp",
+    "contentHash": "b425d7540b8d"
+  },
+  "images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/managed_level_up_stock_photos_ai_workflow_boosts_roi_65_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/bf7cbf32fa44-managed_level_up_stock_photos_ai_workflow_boosts_roi_65_2.webp",
+    "contentHash": "bf7cbf32fa44"
+  },
+  "images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/managed_level_up_stock_photos_ai_workflow_boosts_roi_65_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/32663ab41e8f-managed_level_up_stock_photos_ai_workflow_boosts_roi_65_3.webp",
+    "contentHash": "32663ab41e8f"
+  },
+  "images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/managed_level_up_stock_photos_ai_workflow_boosts_roi_65_4.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/level_up_stock_photos_ai_workflow_boosts_roi_65_512/018eb88ba156-managed_level_up_stock_photos_ai_workflow_boosts_roi_65_4.webp",
+    "contentHash": "018eb88ba156"
+  },
+  "images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/c7520401c55b-managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_0.webp",
+    "contentHash": "c7520401c55b"
+  },
+  "images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/1908b1bb4837-managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_1.webp",
+    "contentHash": "1908b1bb4837"
+  },
+  "images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/91717e4e96f3-managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_2.webp",
+    "contentHash": "91717e4e96f3"
+  },
+  "images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/lightroom_plugin_maximize_stock_sales_with_ai_tags_527/68b327d44bf4-managed_lightroom_plugin_maximize_stock_sales_with_ai_tags_3.webp",
+    "contentHash": "68b327d44bf4"
+  },
+  "images/mastering_xmp_keywords_for_stock_photo_cataloging_544/managed_mastering_xmp_keywords_for_stock_photo_cataloging_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/mastering_xmp_keywords_for_stock_photo_cataloging_544/0ada8f0c110d-managed_mastering_xmp_keywords_for_stock_photo_cataloging_0.webp",
+    "contentHash": "0ada8f0c110d"
+  },
+  "images/mastering_xmp_keywords_for_stock_photo_cataloging_544/managed_mastering_xmp_keywords_for_stock_photo_cataloging_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/mastering_xmp_keywords_for_stock_photo_cataloging_544/03cbbbe78a8b-managed_mastering_xmp_keywords_for_stock_photo_cataloging_1.webp",
+    "contentHash": "03cbbbe78a8b"
+  },
+  "images/mastering_xmp_keywords_for_stock_photo_cataloging_544/managed_mastering_xmp_keywords_for_stock_photo_cataloging_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/mastering_xmp_keywords_for_stock_photo_cataloging_544/f64e6d56c892-managed_mastering_xmp_keywords_for_stock_photo_cataloging_2.webp",
+    "contentHash": "f64e6d56c892"
+  },
+  "images/mastering_xmp_keywords_for_stock_photo_cataloging_544/managed_mastering_xmp_keywords_for_stock_photo_cataloging_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/mastering_xmp_keywords_for_stock_photo_cataloging_544/c6d502575ea0-managed_mastering_xmp_keywords_for_stock_photo_cataloging_3.webp",
+    "contentHash": "c6d502575ea0"
+  },
+  "images/maximize_microstock_sales_ai_photo_management_in_action_535/managed_maximize_microstock_sales_ai_photo_management_in_action_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/maximize_microstock_sales_ai_photo_management_in_action_535/96d0f8e92fe6-managed_maximize_microstock_sales_ai_photo_management_in_action_0.webp",
+    "contentHash": "96d0f8e92fe6"
+  },
+  "images/maximize_microstock_sales_ai_photo_management_in_action_535/managed_maximize_microstock_sales_ai_photo_management_in_action_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/maximize_microstock_sales_ai_photo_management_in_action_535/bb1b0120c8f3-managed_maximize_microstock_sales_ai_photo_management_in_action_1.webp",
+    "contentHash": "bb1b0120c8f3"
+  },
+  "images/maximize_microstock_sales_ai_photo_management_in_action_535/managed_maximize_microstock_sales_ai_photo_management_in_action_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/maximize_microstock_sales_ai_photo_management_in_action_535/b072b3b78e52-managed_maximize_microstock_sales_ai_photo_management_in_action_2.webp",
+    "contentHash": "b072b3b78e52"
+  },
+  "images/maximize_microstock_sales_ai_photo_management_in_action_535/managed_maximize_microstock_sales_ai_photo_management_in_action_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/maximize_microstock_sales_ai_photo_management_in_action_535/113bdaa95a30-managed_maximize_microstock_sales_ai_photo_management_in_action_3.webp",
+    "contentHash": "113bdaa95a30"
+  },
+  "images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/8e17e2f58a82-managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_0.webp",
+    "contentHash": "8e17e2f58a82"
+  },
+  "images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/8c722fbf2bdb-managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_1.webp",
+    "contentHash": "8c722fbf2bdb"
+  },
+  "images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/14210284d1bd-managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_2.webp",
+    "contentHash": "14210284d1bd"
+  },
+  "images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/microstock_success_ai_image_tagging_cuts_workflow_by_70_548/4f734f3ac344-managed_microstock_success_ai_image_tagging_cuts_workflow_by_70_3.webp",
+    "contentHash": "4f734f3ac344"
+  },
+  "images/optimize_microstock_sales_ai_tagging_for_photography_seo_509/managed_optimize_microstock_sales_ai_tagging_for_photography_seo_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/optimize_microstock_sales_ai_tagging_for_photography_seo_509/8e9055e65baa-managed_optimize_microstock_sales_ai_tagging_for_photography_seo_0.webp",
+    "contentHash": "8e9055e65baa"
+  },
+  "images/optimize_microstock_sales_ai_tagging_for_photography_seo_509/managed_optimize_microstock_sales_ai_tagging_for_photography_seo_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/optimize_microstock_sales_ai_tagging_for_photography_seo_509/8f71eeddc10e-managed_optimize_microstock_sales_ai_tagging_for_photography_seo_1.webp",
+    "contentHash": "8f71eeddc10e"
+  },
+  "images/optimize_microstock_sales_ai_tagging_for_photography_seo_509/managed_optimize_microstock_sales_ai_tagging_for_photography_seo_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/optimize_microstock_sales_ai_tagging_for_photography_seo_509/fcec7eb5c50e-managed_optimize_microstock_sales_ai_tagging_for_photography_seo_2.webp",
+    "contentHash": "fcec7eb5c50e"
+  },
+  "images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/49751abde5fa-managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_0.webp",
+    "contentHash": "49751abde5fa"
+  },
+  "images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/74c66fa00541-managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_1.webp",
+    "contentHash": "74c66fa00541"
+  },
+  "images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/2e000b908226-managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_2.webp",
+    "contentHash": "2e000b908226"
+  },
+  "images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/reduce_costs_automate_lightroom_xmp_keywords_efficiently_532/a8143891a54b-managed_reduce_costs_automate_lightroom_xmp_keywords_efficiently_3.webp",
+    "contentHash": "a8143891a54b"
+  },
+  "images/revamp_event_albums_ai_tagging_vs_manual_curation_513/managed_revamp_event_albums_ai_tagging_vs_manual_curation_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/revamp_event_albums_ai_tagging_vs_manual_curation_513/72839fe1a9cd-managed_revamp_event_albums_ai_tagging_vs_manual_curation_0.webp",
+    "contentHash": "72839fe1a9cd"
+  },
+  "images/revamp_event_albums_ai_tagging_vs_manual_curation_513/managed_revamp_event_albums_ai_tagging_vs_manual_curation_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/revamp_event_albums_ai_tagging_vs_manual_curation_513/bdf6c23ad76d-managed_revamp_event_albums_ai_tagging_vs_manual_curation_1.webp",
+    "contentHash": "bdf6c23ad76d"
+  },
+  "images/revamp_event_albums_ai_tagging_vs_manual_curation_513/managed_revamp_event_albums_ai_tagging_vs_manual_curation_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/revamp_event_albums_ai_tagging_vs_manual_curation_513/7acaf62794f6-managed_revamp_event_albums_ai_tagging_vs_manual_curation_2.webp",
+    "contentHash": "7acaf62794f6"
+  },
+  "images/revamp_event_albums_ai_tagging_vs_manual_curation_513/managed_revamp_event_albums_ai_tagging_vs_manual_curation_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/revamp_event_albums_ai_tagging_vs_manual_curation_513/40b1ac3c51d1-managed_revamp_event_albums_ai_tagging_vs_manual_curation_3.webp",
+    "contentHash": "40b1ac3c51d1"
+  },
+  "images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/becc18176d55-managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_0.webp",
+    "contentHash": "becc18176d55"
+  },
+  "images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/ac5b36776c62-managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_1.webp",
+    "contentHash": "ac5b36776c62"
+  },
+  "images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/3872bc1b4305-managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_2.webp",
+    "contentHash": "3872bc1b4305"
+  },
+  "images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/save_50_more_time_bulk_image_processing_with_iptc_metadata_517/a16aac4c4a5d-managed_save_50_more_time_bulk_image_processing_with_iptc_metadata_3.webp",
+    "contentHash": "a16aac4c4a5d"
+  },
+  "images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/d56c71645fe9-managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_0.webp",
+    "contentHash": "d56c71645fe9"
+  },
+  "images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/84fa9d148a99-managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_1.webp",
+    "contentHash": "84fa9d148a99"
+  },
+  "images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/f99b4d42aae2-managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_2.webp",
+    "contentHash": "f99b4d42aae2"
+  },
+  "images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/sell_more_stock_photos_cut_costs_with_ai_descriptions_504/7762578a71c9-managed_sell_more_stock_photos_cut_costs_with_ai_descriptions_3.webp",
+    "contentHash": "7762578a71c9"
+  },
+  "images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/managed_simplify_photo_library_ai_tagging_saves_newbies_hours_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/e28d4f1e88e4-managed_simplify_photo_library_ai_tagging_saves_newbies_hours_0.webp",
+    "contentHash": "e28d4f1e88e4"
+  },
+  "images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/managed_simplify_photo_library_ai_tagging_saves_newbies_hours_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/6c05fafea9de-managed_simplify_photo_library_ai_tagging_saves_newbies_hours_1.webp",
+    "contentHash": "6c05fafea9de"
+  },
+  "images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/managed_simplify_photo_library_ai_tagging_saves_newbies_hours_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/551041bbc6ef-managed_simplify_photo_library_ai_tagging_saves_newbies_hours_2.webp",
+    "contentHash": "551041bbc6ef"
+  },
+  "images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/managed_simplify_photo_library_ai_tagging_saves_newbies_hours_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/5d44c504e906-managed_simplify_photo_library_ai_tagging_saves_newbies_hours_3.webp",
+    "contentHash": "5d44c504e906"
+  },
+  "images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/managed_simplify_photo_library_ai_tagging_saves_newbies_hours_4.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/simplify_photo_library_ai_tagging_saves_newbies_hours_506/b4a9470ec9a0-managed_simplify_photo_library_ai_tagging_saves_newbies_hours_4.webp",
+    "contentHash": "b4a9470ec9a0"
+  },
+  "images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/managed_slash_costs_stock_photo_optimization_ai_tagging_guide_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/6630a89ae30b-managed_slash_costs_stock_photo_optimization_ai_tagging_guide_0.webp",
+    "contentHash": "6630a89ae30b"
+  },
+  "images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/managed_slash_costs_stock_photo_optimization_ai_tagging_guide_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/eab05a556775-managed_slash_costs_stock_photo_optimization_ai_tagging_guide_1.webp",
+    "contentHash": "eab05a556775"
+  },
+  "images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/managed_slash_costs_stock_photo_optimization_ai_tagging_guide_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/5750ca4ad41c-managed_slash_costs_stock_photo_optimization_ai_tagging_guide_2.webp",
+    "contentHash": "5750ca4ad41c"
+  },
+  "images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/managed_slash_costs_stock_photo_optimization_ai_tagging_guide_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/slash_costs_stock_photo_optimization_ai_tagging_guide_500/96abfd5b4272-managed_slash_costs_stock_photo_optimization_ai_tagging_guide_3.webp",
+    "contentHash": "96abfd5b4272"
+  },
+  "images/stock_photo_roi_boost_ai_batch_processing_success_518/managed_stock_photo_roi_boost_ai_batch_processing_success_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_photo_roi_boost_ai_batch_processing_success_518/8d61c70dd0d5-managed_stock_photo_roi_boost_ai_batch_processing_success_0.webp",
+    "contentHash": "8d61c70dd0d5"
+  },
+  "images/stock_photo_roi_boost_ai_batch_processing_success_518/managed_stock_photo_roi_boost_ai_batch_processing_success_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_photo_roi_boost_ai_batch_processing_success_518/ee0a6b7147d4-managed_stock_photo_roi_boost_ai_batch_processing_success_1.webp",
+    "contentHash": "ee0a6b7147d4"
+  },
+  "images/stock_photo_roi_boost_ai_batch_processing_success_518/managed_stock_photo_roi_boost_ai_batch_processing_success_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_photo_roi_boost_ai_batch_processing_success_518/cc4e4f3bd8d6-managed_stock_photo_roi_boost_ai_batch_processing_success_2.webp",
+    "contentHash": "cc4e4f3bd8d6"
+  },
+  "images/stock_photo_roi_boost_ai_batch_processing_success_518/managed_stock_photo_roi_boost_ai_batch_processing_success_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_photo_roi_boost_ai_batch_processing_success_518/842f0071028a-managed_stock_photo_roi_boost_ai_batch_processing_success_3.webp",
+    "contentHash": "842f0071028a"
+  },
+  "images/stock_success_api_driven_metadata_for_photo_tags_528/managed_stock_success_api_driven_metadata_for_photo_tags_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_api_driven_metadata_for_photo_tags_528/72e02ac3c102-managed_stock_success_api_driven_metadata_for_photo_tags_0.webp",
+    "contentHash": "72e02ac3c102"
+  },
+  "images/stock_success_api_driven_metadata_for_photo_tags_528/managed_stock_success_api_driven_metadata_for_photo_tags_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_api_driven_metadata_for_photo_tags_528/5d49bc7ef593-managed_stock_success_api_driven_metadata_for_photo_tags_1.webp",
+    "contentHash": "5d49bc7ef593"
+  },
+  "images/stock_success_api_driven_metadata_for_photo_tags_528/managed_stock_success_api_driven_metadata_for_photo_tags_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_api_driven_metadata_for_photo_tags_528/5794c25bde7e-managed_stock_success_api_driven_metadata_for_photo_tags_2.webp",
+    "contentHash": "5794c25bde7e"
+  },
+  "images/stock_success_streamline_image_cataloging_with_ai_tags_520/managed_stock_success_streamline_image_cataloging_with_ai_tags_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_streamline_image_cataloging_with_ai_tags_520/511fd3fe3e3f-managed_stock_success_streamline_image_cataloging_with_ai_tags_0.webp",
+    "contentHash": "511fd3fe3e3f"
+  },
+  "images/stock_success_streamline_image_cataloging_with_ai_tags_520/managed_stock_success_streamline_image_cataloging_with_ai_tags_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_streamline_image_cataloging_with_ai_tags_520/f9230a15c288-managed_stock_success_streamline_image_cataloging_with_ai_tags_1.webp",
+    "contentHash": "f9230a15c288"
+  },
+  "images/stock_success_streamline_image_cataloging_with_ai_tags_520/managed_stock_success_streamline_image_cataloging_with_ai_tags_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_streamline_image_cataloging_with_ai_tags_520/091af6a76b4b-managed_stock_success_streamline_image_cataloging_with_ai_tags_2.webp",
+    "contentHash": "091af6a76b4b"
+  },
+  "images/stock_success_streamline_image_cataloging_with_ai_tags_520/managed_stock_success_streamline_image_cataloging_with_ai_tags_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_success_streamline_image_cataloging_with_ai_tags_520/03e27a51231f-managed_stock_success_streamline_image_cataloging_with_ai_tags_3.webp",
+    "contentHash": "03e27a51231f"
+  },
+  "images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/7381cdae0594-managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_0.webp",
+    "contentHash": "7381cdae0594"
+  },
+  "images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/96b7475563ea-managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_1.webp",
+    "contentHash": "96b7475563ea"
+  },
+  "images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/05985317d32f-managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_2.webp",
+    "contentHash": "05985317d32f"
+  },
+  "images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/stock_vs_manual_image_seo_boost_efficiency_with_ai_530/1c6ea6bebc07-managed_stock_vs_manual_image_seo_boost_efficiency_with_ai_3.webp",
+    "contentHash": "1c6ea6bebc07"
+  },
+  "images/streamline_photo_library_management_with_ai_tools_550/managed_streamline_photo_library_management_with_ai_tools_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_photo_library_management_with_ai_tools_550/cdaaadade57b-managed_streamline_photo_library_management_with_ai_tools_0.webp",
+    "contentHash": "cdaaadade57b"
+  },
+  "images/streamline_photo_library_management_with_ai_tools_550/managed_streamline_photo_library_management_with_ai_tools_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_photo_library_management_with_ai_tools_550/6570835c6cd9-managed_streamline_photo_library_management_with_ai_tools_1.webp",
+    "contentHash": "6570835c6cd9"
+  },
+  "images/streamline_photo_library_management_with_ai_tools_550/managed_streamline_photo_library_management_with_ai_tools_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_photo_library_management_with_ai_tools_550/17eed89fff49-managed_streamline_photo_library_management_with_ai_tools_2.webp",
+    "contentHash": "17eed89fff49"
+  },
+  "images/streamline_photo_library_management_with_ai_tools_550/managed_streamline_photo_library_management_with_ai_tools_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_photo_library_management_with_ai_tools_550/c66b14b01f2a-managed_streamline_photo_library_management_with_ai_tools_3.webp",
+    "contentHash": "c66b14b01f2a"
+  },
+  "images/streamline_stock_image_database_with_lightroom_plugin_501/managed_streamline_stock_image_database_with_lightroom_plugin_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_stock_image_database_with_lightroom_plugin_501/1d5598810116-managed_streamline_stock_image_database_with_lightroom_plugin_0.webp",
+    "contentHash": "1d5598810116"
+  },
+  "images/streamline_stock_image_database_with_lightroom_plugin_501/managed_streamline_stock_image_database_with_lightroom_plugin_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_stock_image_database_with_lightroom_plugin_501/40515e540e81-managed_streamline_stock_image_database_with_lightroom_plugin_1.webp",
+    "contentHash": "40515e540e81"
+  },
+  "images/streamline_stock_image_database_with_lightroom_plugin_501/managed_streamline_stock_image_database_with_lightroom_plugin_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_stock_image_database_with_lightroom_plugin_501/33c39efc40da-managed_streamline_stock_image_database_with_lightroom_plugin_2.webp",
+    "contentHash": "33c39efc40da"
+  },
+  "images/streamline_stock_image_database_with_lightroom_plugin_501/managed_streamline_stock_image_database_with_lightroom_plugin_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamline_stock_image_database_with_lightroom_plugin_501/a29d57c9074e-managed_streamline_stock_image_database_with_lightroom_plugin_3.webp",
+    "contentHash": "a29d57c9074e"
+  },
+  "images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/1b94c85f7f5f-managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_0.webp",
+    "contentHash": "1b94c85f7f5f"
+  },
+  "images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/b93792f39f8f-managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_1.webp",
+    "contentHash": "b93792f39f8f"
+  },
+  "images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/d57f2953845c-managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_2.webp",
+    "contentHash": "d57f2953845c"
+  },
+  "images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/streamlining_seo_ai_tags_vs_manual_photo_keywords_531/0de149586044-managed_streamlining_seo_ai_tags_vs_manual_photo_keywords_3.webp",
+    "contentHash": "0de149586044"
+  },
+  "images/visual_seo_breakthrough_ai_keywording_for_beginners_515/managed_visual_seo_breakthrough_ai_keywording_for_beginners_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/visual_seo_breakthrough_ai_keywording_for_beginners_515/38c72813135a-managed_visual_seo_breakthrough_ai_keywording_for_beginners_0.webp",
+    "contentHash": "38c72813135a"
+  },
+  "images/visual_seo_breakthrough_ai_keywording_for_beginners_515/managed_visual_seo_breakthrough_ai_keywording_for_beginners_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/visual_seo_breakthrough_ai_keywording_for_beginners_515/9868ad8fbddd-managed_visual_seo_breakthrough_ai_keywording_for_beginners_1.webp",
+    "contentHash": "9868ad8fbddd"
+  },
+  "images/visual_seo_breakthrough_ai_keywording_for_beginners_515/managed_visual_seo_breakthrough_ai_keywording_for_beginners_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/visual_seo_breakthrough_ai_keywording_for_beginners_515/93e6dd8190af-managed_visual_seo_breakthrough_ai_keywording_for_beginners_2.webp",
+    "contentHash": "93e6dd8190af"
+  },
+  "images/visual_seo_breakthrough_ai_keywording_for_beginners_515/managed_visual_seo_breakthrough_ai_keywording_for_beginners_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/visual_seo_breakthrough_ai_keywording_for_beginners_515/290767a60b38-managed_visual_seo_breakthrough_ai_keywording_for_beginners_3.webp",
+    "contentHash": "290767a60b38"
+  },
+  "images/wedding_photographers_maximize_seo_with_iptc_tags_526/managed_wedding_photographers_maximize_seo_with_iptc_tags_0.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/wedding_photographers_maximize_seo_with_iptc_tags_526/0e4d84e5fb1e-managed_wedding_photographers_maximize_seo_with_iptc_tags_0.webp",
+    "contentHash": "0e4d84e5fb1e"
+  },
+  "images/wedding_photographers_maximize_seo_with_iptc_tags_526/managed_wedding_photographers_maximize_seo_with_iptc_tags_1.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/wedding_photographers_maximize_seo_with_iptc_tags_526/860a5e26e987-managed_wedding_photographers_maximize_seo_with_iptc_tags_1.webp",
+    "contentHash": "860a5e26e987"
+  },
+  "images/wedding_photographers_maximize_seo_with_iptc_tags_526/managed_wedding_photographers_maximize_seo_with_iptc_tags_2.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/wedding_photographers_maximize_seo_with_iptc_tags_526/267e30601273-managed_wedding_photographers_maximize_seo_with_iptc_tags_2.webp",
+    "contentHash": "267e30601273"
+  },
+  "images/wedding_photographers_maximize_seo_with_iptc_tags_526/managed_wedding_photographers_maximize_seo_with_iptc_tags_3.webp": {
+    "r2Url": "https://cdn.meita.ai/blog/images/wedding_photographers_maximize_seo_with_iptc_tags_526/e79c4abf2441-managed_wedding_photographers_maximize_seo_with_iptc_tags_3.webp",
+    "contentHash": "e79c4abf2441"
   }
 }
