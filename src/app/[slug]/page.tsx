@@ -68,6 +68,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       {post.image && <img src={post.image} alt={post.title} className="w-full rounded-lg mb-8" />}
       <div className="blog-content" dangerouslySetInnerHTML={{ __html: post.content }} />
       <TableExpander />
+      <div className="border-t border-border mt-10 pt-8">
+        <Link href={`/author/${author.id}`} className="flex items-start gap-4 group">
+          {author.avatarUrl && (
+            <img src={author.avatarUrl} alt={author.name} className="w-14 h-14 rounded-full object-cover flex-shrink-0" />
+          )}
+          <div>
+            <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground mb-1">Written by</p>
+            <p className="text-base font-semibold text-foreground group-hover:text-primary transition-colors">{author.name}</p>
+            {author.bio && <p className="text-sm text-muted-foreground mt-1">{author.bio}</p>}
+          </div>
+        </Link>
+      </div>
       <RelatedPosts posts={related} />
     </article>
   );

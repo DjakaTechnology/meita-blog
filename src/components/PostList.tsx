@@ -6,7 +6,6 @@ import type { PostMeta } from "@/lib/types";
 import PostCard from "./PostCard";
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
-import CategoryFilter from "./CategoryFilter";
 
 interface PostListProps {
   initialPosts: PostMeta[];
@@ -29,12 +28,11 @@ interface SearchIndexEntry {
 
 export default function PostList({ initialPosts, allCategories, totalPages, currentPage, basePath = "/" }: PostListProps) {
   const [query, setQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<PostMeta[] | null>(null);
   const [allPosts, setAllPosts] = useState<SearchIndexEntry[] | null>(null);
   const [fuse, setFuse] = useState<Fuse<SearchIndexEntry> | null>(null);
 
-  const isFiltering = query.length > 0 || selectedCategory !== null;
+  const isFiltering = query.length > 0;
 
   const loadSearchIndex = useCallback(async () => {
     if (allPosts) return;
@@ -59,11 +57,8 @@ export default function PostList({ initialPosts, allCategories, totalPages, curr
     if (query && fuse) {
       results = fuse.search(query).map((r) => r.item);
     }
-    if (selectedCategory) {
-      results = results.filter((p) => p.categories.includes(selectedCategory));
-    }
     setSearchResults(results as PostMeta[]);
-  }, [query, selectedCategory, allPosts, fuse]);
+  }, [query, allPosts, fuse]);
 
   const displayPosts = isFiltering ? (searchResults || []) : initialPosts;
 
@@ -71,7 +66,6 @@ export default function PostList({ initialPosts, allCategories, totalPages, curr
     <div className="w-full max-w-2xl flex flex-col gap-6">
       <div className="flex flex-col items-center gap-4">
         <SearchBar value={query} onChange={(v) => { setQuery(v); if (v.length > 0) loadSearchIndex(); }} />
-        <CategoryFilter categories={allCategories} selected={selectedCategory} onSelect={(cat) => { setSelectedCategory(cat); if (cat) loadSearchIndex(); }} />
       </div>
       {displayPosts.length === 0 ? (
         <div className="text-center py-12"><p className="text-muted-foreground">No articles found.</p></div>

@@ -16,7 +16,7 @@ function loadManifest(): Record<string, { r2Url: string; contentHash: string }> 
 function resolveAvatarUrl(avatar: string): string {
   if (!avatar || avatar.startsWith("http")) return avatar;
   const manifest = loadManifest();
-  const key = `images/avatars/${avatar}`;
+  const key = avatar.includes("/") ? `images/${avatar}` : `images/avatars/${avatar}`;
   const entry = manifest[key];
   return entry ? entry.r2Url : avatar;
 }
