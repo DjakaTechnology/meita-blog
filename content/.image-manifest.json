@@ -1018,9 +1018,5 @@
   "images/avatars/jake-miller.webp": {
     "r2Url": "https://cdn.meita.ai/blog/images/avatars/c04e53ad2d81-jake-miller.webp",
     "contentHash": "c04e53ad2d81"
-  },
-  "images/jake-miller.webp": {
-    "r2Url": "https://cdn.meita.ai/blog/images/images/c04e53ad2d81-jake-miller.webp",
-    "contentHash": "c04e53ad2d81"
   }
 }
